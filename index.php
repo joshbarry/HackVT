@@ -17,6 +17,9 @@
 <div id="content">
 <?php include("header.php"); ?>
 </div>
+<div id="map">
+<?php include("map.php"); ?>
+</div>
 <div id="copyright">
 <?php include("copyright.php"); ?>
 </div>
