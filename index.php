@@ -10,6 +10,10 @@
    <meta name="description" content="INSERT DATA HERE" />
 
    <link rel="stylesheet" href="styleMain.css" type="text/css" media="screen" />
+   
+   <?php // Map script goes here
+   include("map.php");
+   ?>
 
 </head>
 
@@ -17,8 +21,8 @@
 <div id="content">
 <?php include("header.php"); ?>
 </div>
-<div id="map">
-<?php include("map.php"); ?>
+<div id="map_content" style="height:512px; width:512px;">
+<!-- No include here ... this is done in the header. -->
 </div>
 <div id="copyright">
 <?php include("copyright.php"); ?>

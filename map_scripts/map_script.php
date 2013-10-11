@@ -9,7 +9,7 @@
 // ---------------------------------------------------------
 //
 // SCRIPT SETTINGS
-// 
+// NOTE: THIS FILE IS LOCATED IN THE HEADER OF INDEX.PHP!
 // 
 ?>
 <!-- HTML Elements for GoogleMap Implementation -->
