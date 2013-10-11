@@ -11,9 +11,7 @@
 
    <link rel="stylesheet" href="styleMain.css" type="text/css" media="screen" />
    
-   <?php // Map script goes here
-   include("map.php");
-   ?>
+   <?php include("map.php"); ?>
 
 </head>
 
@@ -21,9 +19,8 @@
 <div id="content">
 <?php include("header.php"); ?>
 </div>
-<div id="map_content" style="height:512px; width:512px;">
+<div id="map_content" style="height:512px; width:512px;"></div>
 <!-- No include here ... this is done in the header. -->
-</div>
 <div id="copyright">
 <?php include("copyright.php"); ?>
 </div>

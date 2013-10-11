@@ -12,23 +12,24 @@
 // NOTE: THIS FILE IS LOCATED IN THE HEADER OF INDEX.PHP!
 // 
 ?>
-<!-- HTML Elements for GoogleMap Implementation -->
 <script type="text/javascript"
-	src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBeqiMXfEQ_cpawUHH1Dvhmq0JXMa39vq4&amp;sensor=false">
+	src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjUchTbUt39PSQLJo8sLBJRA5ebre9CYU&sensor=false">
 </script>
 <script type="text/javascript">
-// Geocoder Information
-var geocoder
-function initialize() {
-	// Center map on Burlington, Vermont
-	var mapCenter = new google.maps.LatLng(44.473840, -73.215637);
-	var myOptions = {
-		center: mapCenter,
-		zoom: 7,
-		mapTypeId: google.maps.MapTypeId.ROADMAP
-	};
-	// Build Map
-	var map = new google.maps.Map(document.getElementById("map_content"), myOptions);
-	<?php //any php helper elements go here ?>
-}
+	//Used for storing Geocoder information
+	var geocoder
+    function initialize() {
+		//Center map at Burlington, Vermont
+		var mapCenter = new google.maps.LatLng(44.473840, -73.215637);
+        var myOptions = {
+			center: mapCenter,
+			zoom: 8,
+			mapTypeId: google.maps.MapTypeId.ROADMAP
+        };
+		//Build Map
+        var map = new google.maps.Map(document.getElementById("map_content"),
+            myOptions);
+	}
+	// Load the map (initializer)
+	google.maps.event.addDomListener(window, 'load', initialize);
 </script>
