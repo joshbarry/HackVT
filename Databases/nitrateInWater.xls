@@ -1,0 +1,730 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?mso-application  progid="Excel.Sheet" ?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+  <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+    <Author>InstantAtlas™ Server</Author>
+  </DocumentProperties>
+  <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+    <FirstVisibleSheet>0</FirstVisibleSheet>
+    <ActiveSheet>1</ActiveSheet>
+  </ExcelWorkbook>
+  <Styles>
+    <Style ss:ID="boldGreyBorderLR" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+      <Alignment ss:Horizontal="Center" ss:Vertical="Bottom" />
+      <Borders>
+        <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1" />
+        <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1" />
+      </Borders>
+      <Font ss:FontName="Verdana" ss:Size="8" x:Family="Swiss" ss:Bold="1" xmlns:x="urn:schemas-microsoft-com:office:excel" />
+      <Interior ss:Color="#C0C0C0" ss:Pattern="Solid" />
+    </Style>
+    <Style ss:ID="boldGreyBorderLRB" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+      <Alignment ss:Horizontal="Center" ss:Vertical="Bottom" />
+      <Borders>
+        <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1" />
+        <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1" />
+        <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1" />
+      </Borders>
+      <Font ss:FontName="Verdana" ss:Size="8" x:Family="Swiss" ss:Bold="1" xmlns:x="urn:schemas-microsoft-com:office:excel" />
+      <Interior ss:Color="#C0C0C0" ss:Pattern="Solid" />
+    </Style>
+    <Style ss:ID="defStyle" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+      <Font ss:FontName="Verdana" ss:Size="8" x:Family="Swiss" ss:Bold="0" xmlns:x="urn:schemas-microsoft-com:office:excel" />
+    </Style>
+  </Styles>
+  <Worksheet ss:Name="Geography and Filters" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+    <Table ss:StyleID="defStyle">
+      <Column ss:AutoFitWidth="1" />
+      <Column ss:AutoFitWidth="1" />
+      <Row>
+        <Cell ss:StyleID="boldGreyBorderLR">
+          <Data ss:Type="String">polygon</Data>
+        </Cell>
+        <Cell ss:StyleID="boldGreyBorderLR" />
+        <Cell ss:StyleID="boldGreyBorderLR" />
+      </Row>
+      <Row>
+        <Cell ss:StyleID="boldGreyBorderLRB" />
+        <Cell ss:StyleID="boldGreyBorderLRB">
+          <Data ss:Type="String">Vermont (Nitrate)</Data>
+        </Cell>
+        <Cell ss:StyleID="boldGreyBorderLRB">
+          <Data ss:Type="String">Link</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">104010</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Not reported</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">https://webmail.vdh.state.vt.us/IAS/metadata/view/geofeature?id=104010&amp;pid=33&amp;norefer=true</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">104020</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Less than 3</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">https://webmail.vdh.state.vt.us/IAS/metadata/view/geofeature?id=104020&amp;pid=33&amp;norefer=true</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">104030</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">3 to less than 5</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">https://webmail.vdh.state.vt.us/IAS/metadata/view/geofeature?id=104030&amp;pid=33&amp;norefer=true</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">104040</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">5 to less than 10</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">https://webmail.vdh.state.vt.us/IAS/metadata/view/geofeature?id=104040&amp;pid=33&amp;norefer=true</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">104050</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">10+</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">https://webmail.vdh.state.vt.us/IAS/metadata/view/geofeature?id=104050&amp;pid=33&amp;norefer=true</Data>
+        </Cell>
+      </Row>
+    </Table>
+  </Worksheet>
+  <Worksheet ss:Name="IADatasheet" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+    <Table ss:StyleID="defStyle">
+      <Column ss:AutoFitWidth="1" />
+      <Column ss:AutoFitWidth="1" />
+      <Column ss:AutoFitWidth="1" />
+      <Column ss:AutoFitWidth="1" />
+      <Column ss:AutoFitWidth="1" />
+      <Column ss:AutoFitWidth="1" />
+      <Column ss:AutoFitWidth="1" />
+      <Column ss:AutoFitWidth="1" />
+      <Column ss:AutoFitWidth="1" />
+      <Column ss:AutoFitWidth="1" />
+      <Column ss:AutoFitWidth="1" />
+      <Column ss:AutoFitWidth="1" />
+      <Column ss:AutoFitWidth="1" />
+      <Column ss:AutoFitWidth="1" />
+      <Column ss:AutoFitWidth="1" />
+      <Row>
+        <Cell ss:StyleID="boldGreyBorderLR" />
+        <Cell ss:StyleID="boldGreyBorderLR" />
+        <Cell ss:StyleID="boldGreyBorderLRB" ss:MergeAcross="12">
+          <Data ss:Type="String">Drinking Water</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="boldGreyBorderLR" />
+        <Cell ss:StyleID="boldGreyBorderLR" />
+        <!--i1923,
+                    1999-2010,
+                    Number of People by Annual Mean Nitrate Concentration Tabular View-->
+        <Cell ss:StyleID="boldGreyBorderLRB" ss:MergeAcross="12">
+          <Data ss:Type="String">Number of People by Annual Mean Nitrate Concentration Tabular View</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="boldGreyBorderLR" />
+        <Cell ss:StyleID="boldGreyBorderLR" />
+        <Cell ss:StyleID="boldGreyBorderLRB" ss:MergeAcross="12">
+          <Data ss:Type="String">https://webmail.vdh.state.vt.us/IAS/metadata/view/indicatorinstance?pid=1923&amp;id=8877&amp;norefer=true</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="boldGreyBorderLR" />
+        <Cell ss:StyleID="boldGreyBorderLR" />
+        <Cell ss:StyleID="boldGreyBorderLRB">
+          <Data ss:Type="String">count</Data>
+        </Cell>
+        <Cell ss:StyleID="boldGreyBorderLRB" />
+        <Cell ss:StyleID="boldGreyBorderLRB" />
+        <Cell ss:StyleID="boldGreyBorderLRB" />
+        <Cell ss:StyleID="boldGreyBorderLRB" />
+        <Cell ss:StyleID="boldGreyBorderLRB" />
+        <Cell ss:StyleID="boldGreyBorderLRB" />
+        <Cell ss:StyleID="boldGreyBorderLRB" />
+        <Cell ss:StyleID="boldGreyBorderLRB" />
+        <Cell ss:StyleID="boldGreyBorderLRB" />
+        <Cell ss:StyleID="boldGreyBorderLRB" />
+        <Cell ss:StyleID="boldGreyBorderLRB" />
+        <Cell ss:StyleID="boldGreyBorderLRB" />
+      </Row>
+      <Row>
+        <Cell ss:StyleID="boldGreyBorderLRB">
+          <Data ss:Type="String">Codes</Data>
+        </Cell>
+        <Cell ss:StyleID="boldGreyBorderLRB">
+          <Data ss:Type="String">Names</Data>
+        </Cell>
+        <Cell ss:StyleID="boldGreyBorderLRB">
+          <Data ss:Type="String">1999-2010</Data>
+        </Cell>
+        <Cell ss:StyleID="boldGreyBorderLRB">
+          <Data ss:Type="String">2000</Data>
+        </Cell>
+        <Cell ss:StyleID="boldGreyBorderLRB">
+          <Data ss:Type="String">2001</Data>
+        </Cell>
+        <Cell ss:StyleID="boldGreyBorderLRB">
+          <Data ss:Type="String">2002</Data>
+        </Cell>
+        <Cell ss:StyleID="boldGreyBorderLRB">
+          <Data ss:Type="String">2003</Data>
+        </Cell>
+        <Cell ss:StyleID="boldGreyBorderLRB">
+          <Data ss:Type="String">2004</Data>
+        </Cell>
+        <Cell ss:StyleID="boldGreyBorderLRB">
+          <Data ss:Type="String">2005</Data>
+        </Cell>
+        <Cell ss:StyleID="boldGreyBorderLRB">
+          <Data ss:Type="String">2006</Data>
+        </Cell>
+        <Cell ss:StyleID="boldGreyBorderLRB">
+          <Data ss:Type="String">2007</Data>
+        </Cell>
+        <Cell ss:StyleID="boldGreyBorderLRB">
+          <Data ss:Type="String">2008</Data>
+        </Cell>
+        <Cell ss:StyleID="boldGreyBorderLRB">
+          <Data ss:Type="String">2009</Data>
+        </Cell>
+        <Cell ss:StyleID="boldGreyBorderLRB">
+          <Data ss:Type="String">2010</Data>
+        </Cell>
+        <Cell ss:StyleID="boldGreyBorderLRB">
+          <Data ss:Type="String">ConcenRank</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">104010</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Not reported</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">9922</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">17449</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">16304</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">9926</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">16071</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">7482</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">104189</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">8858</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">7422</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">12246</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">60663</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">6120</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">10</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">104020</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Less than 3</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">438276</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">431391</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">433324</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">439266</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">431941</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">441060</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">344448</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">439884</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">441926</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">435442</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">388250</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">443578</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">20</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">104030</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">3 to less than 5</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">2153</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">1551</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">573</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">1199</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">2279</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">1699</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">1754</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">1649</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">1043</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">2403</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">1093</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">393</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">30</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">104040</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">5 to less than 10</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">158</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">118</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">308</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">118</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">218</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">268</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">118</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">118</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">118</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">418</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">503</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">418</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">40</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">104050</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">10+</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NaN</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">0</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NaN</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NaN</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NaN</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NaN</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NaN</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NaN</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NaN</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NaN</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NaN</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NaN</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">50</Data>
+        </Cell>
+      </Row>
+    </Table>
+  </Worksheet>
+  <Worksheet ss:Name="Metadata" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+    <Table ss:StyleID="defStyle">
+      <Column ss:AutoFitWidth="1" />
+      <Column ss:AutoFitWidth="1" />
+      <Column ss:AutoFitWidth="1" />
+      <Column ss:AutoFitWidth="1" />
+      <Row>
+        <Cell ss:StyleID="boldGreyBorderLRB">
+          <Data ss:Type="String">ElementType</Data>
+        </Cell>
+        <Cell ss:StyleID="boldGreyBorderLRB">
+          <Data ss:Type="String">Element</Data>
+        </Cell>
+        <Cell ss:StyleID="boldGreyBorderLRB">
+          <Data ss:Type="String">MetadataElement</Data>
+        </Cell>
+        <Cell ss:StyleID="boldGreyBorderLRB">
+          <Data ss:Type="String">Value</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">Indicator</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Number of People by Annual Mean Nitrate Concentration Tabular View</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">metatext</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Number of People by Annual Mean Nitrate Concentration Tabular View</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">Indicator</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Number of People by Annual Mean Nitrate Concentration Tabular View</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">column_2000</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">2000</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">Indicator</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Number of People by Annual Mean Nitrate Concentration Tabular View</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">column_2001</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">2001</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">Indicator</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Number of People by Annual Mean Nitrate Concentration Tabular View</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">column_2002</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">2002</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">Indicator</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Number of People by Annual Mean Nitrate Concentration Tabular View</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">column_2003</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">2003</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">Indicator</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Number of People by Annual Mean Nitrate Concentration Tabular View</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">column_2004</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">2004</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">Indicator</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Number of People by Annual Mean Nitrate Concentration Tabular View</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">column_2005</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">2005</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">Indicator</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Number of People by Annual Mean Nitrate Concentration Tabular View</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">column_2006</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">2006</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">Indicator</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Number of People by Annual Mean Nitrate Concentration Tabular View</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">column_2007</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">2007</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">Indicator</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Number of People by Annual Mean Nitrate Concentration Tabular View</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">column_2008</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">2008</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">Indicator</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Number of People by Annual Mean Nitrate Concentration Tabular View</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">column_2009</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">2009</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">Indicator</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Number of People by Annual Mean Nitrate Concentration Tabular View</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">column_2010</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">2010</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">Indicator</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Number of People by Annual Mean Nitrate Concentration Tabular View</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ias:DomMeasure</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NumberofPeoplebyAnnualMeanNitrateConcentrationTabularView</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">Indicator</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Number of People by Annual Mean Nitrate Concentration Tabular View</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">metatext</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Number of People by Annual Mean Nitrate Concentration Tabular</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">Indicator</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Number of People by Annual Mean Nitrate Concentration Tabular View</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">type</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">numeric</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">Indicator</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Number of People by Annual Mean Nitrate Concentration Tabular View</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">precision</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">0</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">Indicator</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Number of People by Annual Mean Nitrate Concentration Tabular View</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">minChartValue</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">0</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">Indicator</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Number of People by Annual Mean Nitrate Concentration Tabular View</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">maxChartValue</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">450</Data>
+        </Cell>
+      </Row>
+    </Table>
+  </Worksheet>
+</Workbook>
