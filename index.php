@@ -17,5 +17,8 @@
 <div id="content">
 <?php include("header.php"); ?>
 </div>
+<div id="copyright">
+<?php include("copyright.php"); ?>
+</div>
 </body>
 </html>
