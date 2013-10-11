@@ -4,9 +4,6 @@
 
 ?>
 
-<img id = "logo" 
-src = "C:\Users\Jenna\Documents\GitHub\HackVT\images\KarmaLogo.png"/>
+<img src="./images/KarmaLogo.png" id="logo" alt="KarmaLogo" width="64" height="64" />
 
-<h2>
-Web Title
-</h2>
+<h2>TEAM KARMA TITLE HERE</h2>
