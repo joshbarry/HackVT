@@ -1,0 +1,1976 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?mso-application  progid="Excel.Sheet" ?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+  <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+    <Author>InstantAtlas™ Server</Author>
+  </DocumentProperties>
+  <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+    <FirstVisibleSheet>0</FirstVisibleSheet>
+    <ActiveSheet>1</ActiveSheet>
+  </ExcelWorkbook>
+  <Styles>
+    <Style ss:ID="boldGreyBorderLR" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+      <Alignment ss:Horizontal="Center" ss:Vertical="Bottom" />
+      <Borders>
+        <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1" />
+        <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1" />
+      </Borders>
+      <Font ss:FontName="Verdana" ss:Size="8" x:Family="Swiss" ss:Bold="1" xmlns:x="urn:schemas-microsoft-com:office:excel" />
+      <Interior ss:Color="#C0C0C0" ss:Pattern="Solid" />
+    </Style>
+    <Style ss:ID="boldGreyBorderLRB" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+      <Alignment ss:Horizontal="Center" ss:Vertical="Bottom" />
+      <Borders>
+        <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1" />
+        <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1" />
+        <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1" />
+      </Borders>
+      <Font ss:FontName="Verdana" ss:Size="8" x:Family="Swiss" ss:Bold="1" xmlns:x="urn:schemas-microsoft-com:office:excel" />
+      <Interior ss:Color="#C0C0C0" ss:Pattern="Solid" />
+    </Style>
+    <Style ss:ID="defStyle" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+      <Font ss:FontName="Verdana" ss:Size="8" x:Family="Swiss" ss:Bold="0" xmlns:x="urn:schemas-microsoft-com:office:excel" />
+    </Style>
+  </Styles>
+  <Worksheet ss:Name="Geography and Filters" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+    <Table ss:StyleID="defStyle">
+      <Column ss:AutoFitWidth="1" />
+      <Column ss:AutoFitWidth="1" />
+      <Row>
+        <Cell ss:StyleID="boldGreyBorderLR">
+          <Data ss:Type="String">polygon</Data>
+        </Cell>
+        <Cell ss:StyleID="boldGreyBorderLR" />
+        <Cell ss:StyleID="boldGreyBorderLR" />
+      </Row>
+      <Row>
+        <Cell ss:StyleID="boldGreyBorderLRB" />
+        <Cell ss:StyleID="boldGreyBorderLRB">
+          <Data ss:Type="String">Vermont (TTHM)</Data>
+        </Cell>
+        <Cell ss:StyleID="boldGreyBorderLRB">
+          <Data ss:Type="String">Link</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">295010</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Not Reported</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">https://webmail.vdh.state.vt.us/IAS/metadata/view/geofeature?id=295010&amp;pid=35&amp;norefer=true</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">295020</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Less than 20</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">https://webmail.vdh.state.vt.us/IAS/metadata/view/geofeature?id=295020&amp;pid=35&amp;norefer=true</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">295030</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">20 to less than 40</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">https://webmail.vdh.state.vt.us/IAS/metadata/view/geofeature?id=295030&amp;pid=35&amp;norefer=true</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">295040</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">40 to less than 60</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">https://webmail.vdh.state.vt.us/IAS/metadata/view/geofeature?id=295040&amp;pid=35&amp;norefer=true</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">295050</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">60 to less than 80</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">https://webmail.vdh.state.vt.us/IAS/metadata/view/geofeature?id=295050&amp;pid=35&amp;norefer=true</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">295060</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">80 to less than 100</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">https://webmail.vdh.state.vt.us/IAS/metadata/view/geofeature?id=295060&amp;pid=35&amp;norefer=true</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">295070</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">100+</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">https://webmail.vdh.state.vt.us/IAS/metadata/view/geofeature?id=295070&amp;pid=35&amp;norefer=true</Data>
+        </Cell>
+      </Row>
+    </Table>
+  </Worksheet>
+  <Worksheet ss:Name="IADatasheet" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+    <Table ss:StyleID="defStyle">
+      <Column ss:AutoFitWidth="1" />
+      <Column ss:AutoFitWidth="1" />
+      <Column ss:AutoFitWidth="1" />
+      <Column ss:AutoFitWidth="1" />
+      <Column ss:AutoFitWidth="1" />
+      <Column ss:AutoFitWidth="1" />
+      <Column ss:AutoFitWidth="1" />
+      <Column ss:AutoFitWidth="1" />
+      <Column ss:AutoFitWidth="1" />
+      <Column ss:AutoFitWidth="1" />
+      <Column ss:AutoFitWidth="1" />
+      <Column ss:AutoFitWidth="1" />
+      <Column ss:AutoFitWidth="1" />
+      <Column ss:AutoFitWidth="1" />
+      <Column ss:AutoFitWidth="1" />
+      <Column ss:AutoFitWidth="1" />
+      <Column ss:AutoFitWidth="1" />
+      <Column ss:AutoFitWidth="1" />
+      <Column ss:AutoFitWidth="1" />
+      <Column ss:AutoFitWidth="1" />
+      <Column ss:AutoFitWidth="1" />
+      <Column ss:AutoFitWidth="1" />
+      <Column ss:AutoFitWidth="1" />
+      <Column ss:AutoFitWidth="1" />
+      <Column ss:AutoFitWidth="1" />
+      <Column ss:AutoFitWidth="1" />
+      <Row>
+        <Cell ss:StyleID="boldGreyBorderLR" />
+        <Cell ss:StyleID="boldGreyBorderLR" />
+        <Cell ss:StyleID="boldGreyBorderLRB" ss:MergeAcross="23">
+          <Data ss:Type="String">Drinking Water</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="boldGreyBorderLR" />
+        <Cell ss:StyleID="boldGreyBorderLR" />
+        <!--i1466,
+                    1999,
+                    Number of People by Annual Mean TTHM Concentration-->
+        <Cell ss:StyleID="boldGreyBorderLRB" ss:MergeAcross="23">
+          <Data ss:Type="String">Number of People by Annual Mean TTHM Concentration</Data>
+        </Cell>
+        <!--i1466,
+                    2000,
+                    Number of People by Annual Mean TTHM Concentration-->
+        <!--i1466,
+                    2001,
+                    Number of People by Annual Mean TTHM Concentration-->
+        <!--i1466,
+                    2002,
+                    Number of People by Annual Mean TTHM Concentration-->
+        <!--i1466,
+                    2003,
+                    Number of People by Annual Mean TTHM Concentration-->
+        <!--i1466,
+                    2004,
+                    Number of People by Annual Mean TTHM Concentration-->
+        <!--i1466,
+                    2005,
+                    Number of People by Annual Mean TTHM Concentration-->
+        <!--i1466,
+                    2006,
+                    Number of People by Annual Mean TTHM Concentration-->
+        <!--i1466,
+                    2007,
+                    Number of People by Annual Mean TTHM Concentration-->
+        <!--i1466,
+                    2008,
+                    Number of People by Annual Mean TTHM Concentration-->
+        <!--i1466,
+                    2009,
+                    Number of People by Annual Mean TTHM Concentration-->
+        <!--i1466,
+                    2010,
+                    Number of People by Annual Mean TTHM Concentration-->
+      </Row>
+      <Row>
+        <Cell ss:StyleID="boldGreyBorderLR" />
+        <Cell ss:StyleID="boldGreyBorderLR" />
+        <Cell ss:StyleID="boldGreyBorderLRB" ss:MergeAcross="1">
+          <Data ss:Type="String">https://webmail.vdh.state.vt.us/IAS/metadata/view/indicatorinstance?pid=1466&amp;id=6171&amp;norefer=true</Data>
+        </Cell>
+        <Cell ss:StyleID="boldGreyBorderLRB" ss:MergeAcross="1">
+          <Data ss:Type="String">https://webmail.vdh.state.vt.us/IAS/metadata/view/indicatorinstance?pid=1466&amp;id=6172&amp;norefer=true</Data>
+        </Cell>
+        <Cell ss:StyleID="boldGreyBorderLRB" ss:MergeAcross="1">
+          <Data ss:Type="String">https://webmail.vdh.state.vt.us/IAS/metadata/view/indicatorinstance?pid=1466&amp;id=6173&amp;norefer=true</Data>
+        </Cell>
+        <Cell ss:StyleID="boldGreyBorderLRB" ss:MergeAcross="1">
+          <Data ss:Type="String">https://webmail.vdh.state.vt.us/IAS/metadata/view/indicatorinstance?pid=1466&amp;id=6174&amp;norefer=true</Data>
+        </Cell>
+        <Cell ss:StyleID="boldGreyBorderLRB" ss:MergeAcross="1">
+          <Data ss:Type="String">https://webmail.vdh.state.vt.us/IAS/metadata/view/indicatorinstance?pid=1466&amp;id=6175&amp;norefer=true</Data>
+        </Cell>
+        <Cell ss:StyleID="boldGreyBorderLRB" ss:MergeAcross="1">
+          <Data ss:Type="String">https://webmail.vdh.state.vt.us/IAS/metadata/view/indicatorinstance?pid=1466&amp;id=6176&amp;norefer=true</Data>
+        </Cell>
+        <Cell ss:StyleID="boldGreyBorderLRB" ss:MergeAcross="1">
+          <Data ss:Type="String">https://webmail.vdh.state.vt.us/IAS/metadata/view/indicatorinstance?pid=1466&amp;id=6177&amp;norefer=true</Data>
+        </Cell>
+        <Cell ss:StyleID="boldGreyBorderLRB" ss:MergeAcross="1">
+          <Data ss:Type="String">https://webmail.vdh.state.vt.us/IAS/metadata/view/indicatorinstance?pid=1466&amp;id=6178&amp;norefer=true</Data>
+        </Cell>
+        <Cell ss:StyleID="boldGreyBorderLRB" ss:MergeAcross="1">
+          <Data ss:Type="String">https://webmail.vdh.state.vt.us/IAS/metadata/view/indicatorinstance?pid=1466&amp;id=6179&amp;norefer=true</Data>
+        </Cell>
+        <Cell ss:StyleID="boldGreyBorderLRB" ss:MergeAcross="1">
+          <Data ss:Type="String">https://webmail.vdh.state.vt.us/IAS/metadata/view/indicatorinstance?pid=1466&amp;id=6180&amp;norefer=true</Data>
+        </Cell>
+        <Cell ss:StyleID="boldGreyBorderLRB" ss:MergeAcross="1">
+          <Data ss:Type="String">https://webmail.vdh.state.vt.us/IAS/metadata/view/indicatorinstance?pid=1466&amp;id=6181&amp;norefer=true</Data>
+        </Cell>
+        <Cell ss:StyleID="boldGreyBorderLRB" ss:MergeAcross="1">
+          <Data ss:Type="String">https://webmail.vdh.state.vt.us/IAS/metadata/view/indicatorinstance?pid=1466&amp;id=6182&amp;norefer=true</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="boldGreyBorderLR" />
+        <Cell ss:StyleID="boldGreyBorderLR" />
+        <Cell ss:StyleID="boldGreyBorderLRB">
+          <Data ss:Type="String">count</Data>
+        </Cell>
+        <Cell ss:StyleID="boldGreyBorderLRB" />
+        <Cell ss:StyleID="boldGreyBorderLRB">
+          <Data ss:Type="String" />
+        </Cell>
+        <Cell ss:StyleID="boldGreyBorderLRB" />
+        <Cell ss:StyleID="boldGreyBorderLRB">
+          <Data ss:Type="String" />
+        </Cell>
+        <Cell ss:StyleID="boldGreyBorderLRB" />
+        <Cell ss:StyleID="boldGreyBorderLRB">
+          <Data ss:Type="String" />
+        </Cell>
+        <Cell ss:StyleID="boldGreyBorderLRB" />
+        <Cell ss:StyleID="boldGreyBorderLRB">
+          <Data ss:Type="String" />
+        </Cell>
+        <Cell ss:StyleID="boldGreyBorderLRB" />
+        <Cell ss:StyleID="boldGreyBorderLRB">
+          <Data ss:Type="String" />
+        </Cell>
+        <Cell ss:StyleID="boldGreyBorderLRB" />
+        <Cell ss:StyleID="boldGreyBorderLRB">
+          <Data ss:Type="String" />
+        </Cell>
+        <Cell ss:StyleID="boldGreyBorderLRB" />
+        <Cell ss:StyleID="boldGreyBorderLRB">
+          <Data ss:Type="String" />
+        </Cell>
+        <Cell ss:StyleID="boldGreyBorderLRB" />
+        <Cell ss:StyleID="boldGreyBorderLRB">
+          <Data ss:Type="String" />
+        </Cell>
+        <Cell ss:StyleID="boldGreyBorderLRB" />
+        <Cell ss:StyleID="boldGreyBorderLRB">
+          <Data ss:Type="String" />
+        </Cell>
+        <Cell ss:StyleID="boldGreyBorderLRB" />
+        <Cell ss:StyleID="boldGreyBorderLRB">
+          <Data ss:Type="String" />
+        </Cell>
+        <Cell ss:StyleID="boldGreyBorderLRB" />
+        <Cell ss:StyleID="boldGreyBorderLRB">
+          <Data ss:Type="String" />
+        </Cell>
+        <Cell ss:StyleID="boldGreyBorderLRB" />
+      </Row>
+      <Row>
+        <Cell ss:StyleID="boldGreyBorderLRB">
+          <Data ss:Type="String">Codes</Data>
+        </Cell>
+        <Cell ss:StyleID="boldGreyBorderLRB">
+          <Data ss:Type="String">Names</Data>
+        </Cell>
+        <Cell ss:StyleID="boldGreyBorderLRB">
+          <Data ss:Type="String">1999</Data>
+        </Cell>
+        <Cell ss:StyleID="boldGreyBorderLRB">
+          <Data ss:Type="String">ConcenRank</Data>
+        </Cell>
+        <Cell ss:StyleID="boldGreyBorderLRB">
+          <Data ss:Type="String">2000</Data>
+        </Cell>
+        <Cell ss:StyleID="boldGreyBorderLRB">
+          <Data ss:Type="String">ConcenRank</Data>
+        </Cell>
+        <Cell ss:StyleID="boldGreyBorderLRB">
+          <Data ss:Type="String">2001</Data>
+        </Cell>
+        <Cell ss:StyleID="boldGreyBorderLRB">
+          <Data ss:Type="String">ConcenRank</Data>
+        </Cell>
+        <Cell ss:StyleID="boldGreyBorderLRB">
+          <Data ss:Type="String">2002</Data>
+        </Cell>
+        <Cell ss:StyleID="boldGreyBorderLRB">
+          <Data ss:Type="String">ConcenRank</Data>
+        </Cell>
+        <Cell ss:StyleID="boldGreyBorderLRB">
+          <Data ss:Type="String">2003</Data>
+        </Cell>
+        <Cell ss:StyleID="boldGreyBorderLRB">
+          <Data ss:Type="String">ConcenRank</Data>
+        </Cell>
+        <Cell ss:StyleID="boldGreyBorderLRB">
+          <Data ss:Type="String">2004</Data>
+        </Cell>
+        <Cell ss:StyleID="boldGreyBorderLRB">
+          <Data ss:Type="String">ConcenRank</Data>
+        </Cell>
+        <Cell ss:StyleID="boldGreyBorderLRB">
+          <Data ss:Type="String">2005</Data>
+        </Cell>
+        <Cell ss:StyleID="boldGreyBorderLRB">
+          <Data ss:Type="String">ConcenRank</Data>
+        </Cell>
+        <Cell ss:StyleID="boldGreyBorderLRB">
+          <Data ss:Type="String">2006</Data>
+        </Cell>
+        <Cell ss:StyleID="boldGreyBorderLRB">
+          <Data ss:Type="String">ConcenRank</Data>
+        </Cell>
+        <Cell ss:StyleID="boldGreyBorderLRB">
+          <Data ss:Type="String">2007</Data>
+        </Cell>
+        <Cell ss:StyleID="boldGreyBorderLRB">
+          <Data ss:Type="String">ConcenRank</Data>
+        </Cell>
+        <Cell ss:StyleID="boldGreyBorderLRB">
+          <Data ss:Type="String">2008</Data>
+        </Cell>
+        <Cell ss:StyleID="boldGreyBorderLRB">
+          <Data ss:Type="String">ConcenRank</Data>
+        </Cell>
+        <Cell ss:StyleID="boldGreyBorderLRB">
+          <Data ss:Type="String">2009</Data>
+        </Cell>
+        <Cell ss:StyleID="boldGreyBorderLRB">
+          <Data ss:Type="String">ConcenRank</Data>
+        </Cell>
+        <Cell ss:StyleID="boldGreyBorderLRB">
+          <Data ss:Type="String">2010</Data>
+        </Cell>
+        <Cell ss:StyleID="boldGreyBorderLRB">
+          <Data ss:Type="String">ConcenRank</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">295010</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Not Reported</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">192435</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">10</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">223924</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">10</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">230935</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">10</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">191540</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">10</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">94475</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">10</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">156285</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">10</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">103885</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">10</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">51009</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">10</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">133264</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">10</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">107978</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">10</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">66370</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">10</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">138311</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">10</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">295020</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Less than 20</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">66254</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">20</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">48901</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">20</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">33714</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">20</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">58268</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">20</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">127574</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">20</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">72526</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">20</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">121352</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">20</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">138839</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">20</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">58627</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">20</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">91245</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">20</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">200429</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">20</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">122926</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">20</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">295030</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">20 to less than 40</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">22214</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">30</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">39827</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">30</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">114365</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">30</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">51433</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">30</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">122025</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">30</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">36115</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">30</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">91097</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">30</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">136822</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">30</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">141265</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">30</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">135734</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">30</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">83201</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">30</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">129919</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">30</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">295040</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">40 to less than 60</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">113396</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">40</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">137857</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">40</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">15285</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">40</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">144448</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">40</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">89033</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">40</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">111742</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">40</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">110501</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">40</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">87806</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">40</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">106177</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">40</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">99181</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">40</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">91011</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">40</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">38441</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">40</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">295050</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">60 to less than 80</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">56210</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">50</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">0</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">50</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">56210</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">50</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">2260</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">50</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">6861</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">50</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">63769</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">50</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">16590</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">50</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">18715</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">50</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">7100</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">50</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">10453</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">50</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">6538</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">50</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">19620</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">50</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">295060</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">80 to less than 100</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">0</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">60</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">0</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">60</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">0</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">60</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">2560</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">60</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">6741</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">60</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">9284</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">60</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">7084</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">60</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">17011</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">60</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">4076</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">60</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">3645</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">60</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">2960</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">60</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">1292</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">60</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">295070</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">100+</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">0</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">70</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">0</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">70</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">0</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">70</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">0</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">70</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">3800</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">70</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">788</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">70</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">0</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">70</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">307</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">70</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">0</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">70</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">2273</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">70</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">0</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">70</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">0</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">70</Data>
+        </Cell>
+      </Row>
+    </Table>
+  </Worksheet>
+  <Worksheet ss:Name="Metadata" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+    <Table ss:StyleID="defStyle">
+      <Column ss:AutoFitWidth="1" />
+      <Column ss:AutoFitWidth="1" />
+      <Column ss:AutoFitWidth="1" />
+      <Column ss:AutoFitWidth="1" />
+      <Row>
+        <Cell ss:StyleID="boldGreyBorderLRB">
+          <Data ss:Type="String">ElementType</Data>
+        </Cell>
+        <Cell ss:StyleID="boldGreyBorderLRB">
+          <Data ss:Type="String">Element</Data>
+        </Cell>
+        <Cell ss:StyleID="boldGreyBorderLRB">
+          <Data ss:Type="String">MetadataElement</Data>
+        </Cell>
+        <Cell ss:StyleID="boldGreyBorderLRB">
+          <Data ss:Type="String">Value</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">Indicator</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Number of People by Annual Mean TTHM Concentration</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ias:DomMeasure</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NumberofPeoplebyAnnualMeanTTHMConcentration</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">Indicator</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Number of People by Annual Mean TTHM Concentration</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">metatext</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Number of People by Annual Mean TTHM Concentration</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">Indicator</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Number of People by Annual Mean TTHM Concentration</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">type</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">numeric</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">Indicator</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Number of People by Annual Mean TTHM Concentration</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">precision</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">0</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">Indicator</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Number of People by Annual Mean TTHM Concentration</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">minChartValue</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">0</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">Indicator</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Number of People by Annual Mean TTHM Concentration</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">maxChartValue</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">450000</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">Indicator</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Number of People by Annual Mean TTHM Concentration</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ias:DomMeasure</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NumberofPeoplebyAnnualMeanTTHMConcentration</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">Indicator</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Number of People by Annual Mean TTHM Concentration</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">metatext</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Number of People by Annual Mean TTHM Concentration</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">Indicator</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Number of People by Annual Mean TTHM Concentration</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">type</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">numeric</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">Indicator</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Number of People by Annual Mean TTHM Concentration</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">precision</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">0</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">Indicator</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Number of People by Annual Mean TTHM Concentration</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">minChartValue</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">0</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">Indicator</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Number of People by Annual Mean TTHM Concentration</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">maxChartValue</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">450000</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">Indicator</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Number of People by Annual Mean TTHM Concentration</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ias:DomMeasure</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NumberofPeoplebyAnnualMeanTTHMConcentration</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">Indicator</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Number of People by Annual Mean TTHM Concentration</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">metatext</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Number of People by Annual Mean TTHM Concentration</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">Indicator</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Number of People by Annual Mean TTHM Concentration</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">type</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">numeric</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">Indicator</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Number of People by Annual Mean TTHM Concentration</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">precision</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">0</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">Indicator</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Number of People by Annual Mean TTHM Concentration</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">minChartValue</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">0</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">Indicator</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Number of People by Annual Mean TTHM Concentration</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">maxChartValue</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">450000</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">Indicator</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Number of People by Annual Mean TTHM Concentration</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ias:DomMeasure</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NumberofPeoplebyAnnualMeanTTHMConcentration</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">Indicator</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Number of People by Annual Mean TTHM Concentration</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">metatext</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Number of People by Annual Mean TTHM Concentration</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">Indicator</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Number of People by Annual Mean TTHM Concentration</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">type</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">numeric</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">Indicator</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Number of People by Annual Mean TTHM Concentration</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">precision</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">0</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">Indicator</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Number of People by Annual Mean TTHM Concentration</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">minChartValue</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">0</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">Indicator</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Number of People by Annual Mean TTHM Concentration</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">maxChartValue</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">450000</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">Indicator</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Number of People by Annual Mean TTHM Concentration</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ias:DomMeasure</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NumberofPeoplebyAnnualMeanTTHMConcentration</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">Indicator</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Number of People by Annual Mean TTHM Concentration</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">metatext</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Number of People by Annual Mean TTHM Concentration</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">Indicator</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Number of People by Annual Mean TTHM Concentration</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">type</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">numeric</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">Indicator</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Number of People by Annual Mean TTHM Concentration</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">precision</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">0</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">Indicator</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Number of People by Annual Mean TTHM Concentration</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">minChartValue</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">0</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">Indicator</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Number of People by Annual Mean TTHM Concentration</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">maxChartValue</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">450000</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">Indicator</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Number of People by Annual Mean TTHM Concentration</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ias:DomMeasure</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NumberofPeoplebyAnnualMeanTTHMConcentration</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">Indicator</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Number of People by Annual Mean TTHM Concentration</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">metatext</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Number of People by Annual Mean TTHM Concentration</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">Indicator</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Number of People by Annual Mean TTHM Concentration</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">type</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">numeric</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">Indicator</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Number of People by Annual Mean TTHM Concentration</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">precision</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">0</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">Indicator</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Number of People by Annual Mean TTHM Concentration</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">minChartValue</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">0</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">Indicator</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Number of People by Annual Mean TTHM Concentration</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">maxChartValue</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">450000</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">Indicator</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Number of People by Annual Mean TTHM Concentration</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ias:DomMeasure</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NumberofPeoplebyAnnualMeanTTHMConcentration</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">Indicator</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Number of People by Annual Mean TTHM Concentration</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">metatext</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Number of People by Annual Mean TTHM Concentration</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">Indicator</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Number of People by Annual Mean TTHM Concentration</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">type</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">numeric</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">Indicator</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Number of People by Annual Mean TTHM Concentration</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">precision</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">0</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">Indicator</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Number of People by Annual Mean TTHM Concentration</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">minChartValue</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">0</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">Indicator</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Number of People by Annual Mean TTHM Concentration</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">maxChartValue</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">450000</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">Indicator</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Number of People by Annual Mean TTHM Concentration</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ias:DomMeasure</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NumberofPeoplebyAnnualMeanTTHMConcentration</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">Indicator</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Number of People by Annual Mean TTHM Concentration</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">metatext</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Number of People by Annual Mean TTHM Concentration</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">Indicator</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Number of People by Annual Mean TTHM Concentration</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">type</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">numeric</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">Indicator</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Number of People by Annual Mean TTHM Concentration</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">precision</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">0</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">Indicator</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Number of People by Annual Mean TTHM Concentration</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">minChartValue</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">0</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">Indicator</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Number of People by Annual Mean TTHM Concentration</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">maxChartValue</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">450000</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">Indicator</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Number of People by Annual Mean TTHM Concentration</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ias:DomMeasure</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NumberofPeoplebyAnnualMeanTTHMConcentration</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">Indicator</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Number of People by Annual Mean TTHM Concentration</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">metatext</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Number of People by Annual Mean TTHM Concentration</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">Indicator</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Number of People by Annual Mean TTHM Concentration</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">type</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">numeric</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">Indicator</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Number of People by Annual Mean TTHM Concentration</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">precision</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">0</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">Indicator</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Number of People by Annual Mean TTHM Concentration</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">minChartValue</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">0</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">Indicator</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Number of People by Annual Mean TTHM Concentration</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">maxChartValue</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">450000</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">Indicator</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Number of People by Annual Mean TTHM Concentration</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ias:DomMeasure</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NumberofPeoplebyAnnualMeanTTHMConcentration</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">Indicator</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Number of People by Annual Mean TTHM Concentration</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">metatext</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Number of People by Annual Mean TTHM Concentration</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">Indicator</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Number of People by Annual Mean TTHM Concentration</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">type</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">numeric</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">Indicator</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Number of People by Annual Mean TTHM Concentration</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">precision</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">0</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">Indicator</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Number of People by Annual Mean TTHM Concentration</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">minChartValue</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">0</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">Indicator</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Number of People by Annual Mean TTHM Concentration</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">maxChartValue</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">450000</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">Indicator</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Number of People by Annual Mean TTHM Concentration</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ias:DomMeasure</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NumberofPeoplebyAnnualMeanTTHMConcentration</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">Indicator</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Number of People by Annual Mean TTHM Concentration</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">metatext</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Number of People by Annual Mean TTHM Concentration</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">Indicator</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Number of People by Annual Mean TTHM Concentration</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">type</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">numeric</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">Indicator</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Number of People by Annual Mean TTHM Concentration</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">precision</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">0</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">Indicator</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Number of People by Annual Mean TTHM Concentration</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">minChartValue</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">0</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">Indicator</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Number of People by Annual Mean TTHM Concentration</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">maxChartValue</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">450000</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">Indicator</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Number of People by Annual Mean TTHM Concentration</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ias:DomMeasure</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NumberofPeoplebyAnnualMeanTTHMConcentration</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">Indicator</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Number of People by Annual Mean TTHM Concentration</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">metatext</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Number of People by Annual Mean TTHM Concentration</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">Indicator</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Number of People by Annual Mean TTHM Concentration</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">type</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">numeric</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">Indicator</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Number of People by Annual Mean TTHM Concentration</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">precision</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">0</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">Indicator</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Number of People by Annual Mean TTHM Concentration</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">minChartValue</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">0</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">Indicator</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Number of People by Annual Mean TTHM Concentration</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">maxChartValue</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">450000</Data>
+        </Cell>
+      </Row>
+    </Table>
+  </Worksheet>
+</Workbook>

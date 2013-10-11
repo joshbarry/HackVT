@@ -1,0 +1,1885 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?mso-application  progid="Excel.Sheet" ?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet">
+  <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+    <Author>InstantAtlas™ Server</Author>
+  </DocumentProperties>
+  <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+    <FirstVisibleSheet>0</FirstVisibleSheet>
+    <ActiveSheet>1</ActiveSheet>
+  </ExcelWorkbook>
+  <Styles>
+    <Style ss:ID="boldGreyBorderLR" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+      <Alignment ss:Horizontal="Center" ss:Vertical="Bottom" />
+      <Borders>
+        <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1" />
+        <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1" />
+      </Borders>
+      <Font ss:FontName="Verdana" ss:Size="8" x:Family="Swiss" ss:Bold="1" xmlns:x="urn:schemas-microsoft-com:office:excel" />
+      <Interior ss:Color="#C0C0C0" ss:Pattern="Solid" />
+    </Style>
+    <Style ss:ID="boldGreyBorderLRB" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+      <Alignment ss:Horizontal="Center" ss:Vertical="Bottom" />
+      <Borders>
+        <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1" />
+        <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1" />
+        <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1" />
+      </Borders>
+      <Font ss:FontName="Verdana" ss:Size="8" x:Family="Swiss" ss:Bold="1" xmlns:x="urn:schemas-microsoft-com:office:excel" />
+      <Interior ss:Color="#C0C0C0" ss:Pattern="Solid" />
+    </Style>
+    <Style ss:ID="defStyle" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+      <Font ss:FontName="Verdana" ss:Size="8" x:Family="Swiss" ss:Bold="0" xmlns:x="urn:schemas-microsoft-com:office:excel" />
+    </Style>
+  </Styles>
+  <Worksheet ss:Name="Geography and Filters" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+    <Table ss:StyleID="defStyle">
+      <Column ss:AutoFitWidth="1" />
+      <Column ss:AutoFitWidth="1" />
+      <Row>
+        <Cell ss:StyleID="boldGreyBorderLR">
+          <Data ss:Type="String">polygon</Data>
+        </Cell>
+        <Cell ss:StyleID="boldGreyBorderLR" />
+        <Cell ss:StyleID="boldGreyBorderLR" />
+      </Row>
+      <Row>
+        <Cell ss:StyleID="boldGreyBorderLRB" />
+        <Cell ss:StyleID="boldGreyBorderLRB">
+          <Data ss:Type="String">Vermont (Arsenic)</Data>
+        </Cell>
+        <Cell ss:StyleID="boldGreyBorderLRB">
+          <Data ss:Type="String">Link</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">100510</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Not Reported</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">https://webmail.vdh.state.vt.us/IAS/metadata/view/geofeature?id=100510&amp;pid=31&amp;norefer=true</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">100520</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Less than 5</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">https://webmail.vdh.state.vt.us/IAS/metadata/view/geofeature?id=100520&amp;pid=31&amp;norefer=true</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">100530</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">5 to less than 10</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">https://webmail.vdh.state.vt.us/IAS/metadata/view/geofeature?id=100530&amp;pid=31&amp;norefer=true</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">100540</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">10 to less than 20</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">https://webmail.vdh.state.vt.us/IAS/metadata/view/geofeature?id=100540&amp;pid=31&amp;norefer=true</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">100550</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">20 to less than 30</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">https://webmail.vdh.state.vt.us/IAS/metadata/view/geofeature?id=100550&amp;pid=31&amp;norefer=true</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">100560</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">30+</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">https://webmail.vdh.state.vt.us/IAS/metadata/view/geofeature?id=100560&amp;pid=31&amp;norefer=true</Data>
+        </Cell>
+      </Row>
+    </Table>
+  </Worksheet>
+  <Worksheet ss:Name="IADatasheet" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+    <Table ss:StyleID="defStyle">
+      <Column ss:AutoFitWidth="1" />
+      <Column ss:AutoFitWidth="1" />
+      <Column ss:AutoFitWidth="1" />
+      <Column ss:AutoFitWidth="1" />
+      <Column ss:AutoFitWidth="1" />
+      <Column ss:AutoFitWidth="1" />
+      <Column ss:AutoFitWidth="1" />
+      <Column ss:AutoFitWidth="1" />
+      <Column ss:AutoFitWidth="1" />
+      <Column ss:AutoFitWidth="1" />
+      <Column ss:AutoFitWidth="1" />
+      <Column ss:AutoFitWidth="1" />
+      <Column ss:AutoFitWidth="1" />
+      <Column ss:AutoFitWidth="1" />
+      <Column ss:AutoFitWidth="1" />
+      <Column ss:AutoFitWidth="1" />
+      <Column ss:AutoFitWidth="1" />
+      <Column ss:AutoFitWidth="1" />
+      <Column ss:AutoFitWidth="1" />
+      <Column ss:AutoFitWidth="1" />
+      <Column ss:AutoFitWidth="1" />
+      <Column ss:AutoFitWidth="1" />
+      <Column ss:AutoFitWidth="1" />
+      <Column ss:AutoFitWidth="1" />
+      <Column ss:AutoFitWidth="1" />
+      <Column ss:AutoFitWidth="1" />
+      <Row>
+        <Cell ss:StyleID="boldGreyBorderLR" />
+        <Cell ss:StyleID="boldGreyBorderLR" />
+        <Cell ss:StyleID="boldGreyBorderLRB" ss:MergeAcross="23">
+          <Data ss:Type="String">Drinking Water</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="boldGreyBorderLR" />
+        <Cell ss:StyleID="boldGreyBorderLR" />
+        <!--i1441,
+                    1999,
+                    Number of People by Annual Mean Arsenic Concentration-->
+        <Cell ss:StyleID="boldGreyBorderLRB" ss:MergeAcross="23">
+          <Data ss:Type="String">Number of People by Annual Mean Arsenic Concentration</Data>
+        </Cell>
+        <!--i1441,
+                    2000,
+                    Number of People by Annual Mean Arsenic Concentration-->
+        <!--i1441,
+                    2001,
+                    Number of People by Annual Mean Arsenic Concentration-->
+        <!--i1441,
+                    2002,
+                    Number of People by Annual Mean Arsenic Concentration-->
+        <!--i1441,
+                    2003,
+                    Number of People by Annual Mean Arsenic Concentration-->
+        <!--i1441,
+                    2004,
+                    Number of People by Annual Mean Arsenic Concentration-->
+        <!--i1441,
+                    2005,
+                    Number of People by Annual Mean Arsenic Concentration-->
+        <!--i1441,
+                    2006,
+                    Number of People by Annual Mean Arsenic Concentration-->
+        <!--i1441,
+                    2007,
+                    Number of People by Annual Mean Arsenic Concentration-->
+        <!--i1441,
+                    2008,
+                    Number of People by Annual Mean Arsenic Concentration-->
+        <!--i1441,
+                    2009,
+                    Number of People by Annual Mean Arsenic Concentration-->
+        <!--i1441,
+                    2010,
+                    Number of People by Annual Mean Arsenic Concentration-->
+      </Row>
+      <Row>
+        <Cell ss:StyleID="boldGreyBorderLR" />
+        <Cell ss:StyleID="boldGreyBorderLR" />
+        <Cell ss:StyleID="boldGreyBorderLRB" ss:MergeAcross="1">
+          <Data ss:Type="String">https://webmail.vdh.state.vt.us/IAS/metadata/view/indicatorinstance?pid=1441&amp;id=5871&amp;norefer=true</Data>
+        </Cell>
+        <Cell ss:StyleID="boldGreyBorderLRB" ss:MergeAcross="1">
+          <Data ss:Type="String">https://webmail.vdh.state.vt.us/IAS/metadata/view/indicatorinstance?pid=1441&amp;id=5872&amp;norefer=true</Data>
+        </Cell>
+        <Cell ss:StyleID="boldGreyBorderLRB" ss:MergeAcross="1">
+          <Data ss:Type="String">https://webmail.vdh.state.vt.us/IAS/metadata/view/indicatorinstance?pid=1441&amp;id=5873&amp;norefer=true</Data>
+        </Cell>
+        <Cell ss:StyleID="boldGreyBorderLRB" ss:MergeAcross="1">
+          <Data ss:Type="String">https://webmail.vdh.state.vt.us/IAS/metadata/view/indicatorinstance?pid=1441&amp;id=5874&amp;norefer=true</Data>
+        </Cell>
+        <Cell ss:StyleID="boldGreyBorderLRB" ss:MergeAcross="1">
+          <Data ss:Type="String">https://webmail.vdh.state.vt.us/IAS/metadata/view/indicatorinstance?pid=1441&amp;id=5875&amp;norefer=true</Data>
+        </Cell>
+        <Cell ss:StyleID="boldGreyBorderLRB" ss:MergeAcross="1">
+          <Data ss:Type="String">https://webmail.vdh.state.vt.us/IAS/metadata/view/indicatorinstance?pid=1441&amp;id=5876&amp;norefer=true</Data>
+        </Cell>
+        <Cell ss:StyleID="boldGreyBorderLRB" ss:MergeAcross="1">
+          <Data ss:Type="String">https://webmail.vdh.state.vt.us/IAS/metadata/view/indicatorinstance?pid=1441&amp;id=5877&amp;norefer=true</Data>
+        </Cell>
+        <Cell ss:StyleID="boldGreyBorderLRB" ss:MergeAcross="1">
+          <Data ss:Type="String">https://webmail.vdh.state.vt.us/IAS/metadata/view/indicatorinstance?pid=1441&amp;id=5878&amp;norefer=true</Data>
+        </Cell>
+        <Cell ss:StyleID="boldGreyBorderLRB" ss:MergeAcross="1">
+          <Data ss:Type="String">https://webmail.vdh.state.vt.us/IAS/metadata/view/indicatorinstance?pid=1441&amp;id=5879&amp;norefer=true</Data>
+        </Cell>
+        <Cell ss:StyleID="boldGreyBorderLRB" ss:MergeAcross="1">
+          <Data ss:Type="String">https://webmail.vdh.state.vt.us/IAS/metadata/view/indicatorinstance?pid=1441&amp;id=5880&amp;norefer=true</Data>
+        </Cell>
+        <Cell ss:StyleID="boldGreyBorderLRB" ss:MergeAcross="1">
+          <Data ss:Type="String">https://webmail.vdh.state.vt.us/IAS/metadata/view/indicatorinstance?pid=1441&amp;id=5881&amp;norefer=true</Data>
+        </Cell>
+        <Cell ss:StyleID="boldGreyBorderLRB" ss:MergeAcross="1">
+          <Data ss:Type="String">https://webmail.vdh.state.vt.us/IAS/metadata/view/indicatorinstance?pid=1441&amp;id=5882&amp;norefer=true</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="boldGreyBorderLR" />
+        <Cell ss:StyleID="boldGreyBorderLR" />
+        <Cell ss:StyleID="boldGreyBorderLRB">
+          <Data ss:Type="String">count</Data>
+        </Cell>
+        <Cell ss:StyleID="boldGreyBorderLRB" />
+        <Cell ss:StyleID="boldGreyBorderLRB">
+          <Data ss:Type="String" />
+        </Cell>
+        <Cell ss:StyleID="boldGreyBorderLRB" />
+        <Cell ss:StyleID="boldGreyBorderLRB">
+          <Data ss:Type="String" />
+        </Cell>
+        <Cell ss:StyleID="boldGreyBorderLRB" />
+        <Cell ss:StyleID="boldGreyBorderLRB">
+          <Data ss:Type="String" />
+        </Cell>
+        <Cell ss:StyleID="boldGreyBorderLRB" />
+        <Cell ss:StyleID="boldGreyBorderLRB">
+          <Data ss:Type="String" />
+        </Cell>
+        <Cell ss:StyleID="boldGreyBorderLRB" />
+        <Cell ss:StyleID="boldGreyBorderLRB">
+          <Data ss:Type="String" />
+        </Cell>
+        <Cell ss:StyleID="boldGreyBorderLRB" />
+        <Cell ss:StyleID="boldGreyBorderLRB">
+          <Data ss:Type="String" />
+        </Cell>
+        <Cell ss:StyleID="boldGreyBorderLRB" />
+        <Cell ss:StyleID="boldGreyBorderLRB">
+          <Data ss:Type="String" />
+        </Cell>
+        <Cell ss:StyleID="boldGreyBorderLRB" />
+        <Cell ss:StyleID="boldGreyBorderLRB">
+          <Data ss:Type="String" />
+        </Cell>
+        <Cell ss:StyleID="boldGreyBorderLRB" />
+        <Cell ss:StyleID="boldGreyBorderLRB">
+          <Data ss:Type="String" />
+        </Cell>
+        <Cell ss:StyleID="boldGreyBorderLRB" />
+        <Cell ss:StyleID="boldGreyBorderLRB">
+          <Data ss:Type="String" />
+        </Cell>
+        <Cell ss:StyleID="boldGreyBorderLRB" />
+        <Cell ss:StyleID="boldGreyBorderLRB">
+          <Data ss:Type="String" />
+        </Cell>
+        <Cell ss:StyleID="boldGreyBorderLRB" />
+      </Row>
+      <Row>
+        <Cell ss:StyleID="boldGreyBorderLRB">
+          <Data ss:Type="String">Codes</Data>
+        </Cell>
+        <Cell ss:StyleID="boldGreyBorderLRB">
+          <Data ss:Type="String">Names</Data>
+        </Cell>
+        <Cell ss:StyleID="boldGreyBorderLRB">
+          <Data ss:Type="String">1999</Data>
+        </Cell>
+        <Cell ss:StyleID="boldGreyBorderLRB">
+          <Data ss:Type="String">ConcenRank</Data>
+        </Cell>
+        <Cell ss:StyleID="boldGreyBorderLRB">
+          <Data ss:Type="String">2000</Data>
+        </Cell>
+        <Cell ss:StyleID="boldGreyBorderLRB">
+          <Data ss:Type="String">ConcenRank</Data>
+        </Cell>
+        <Cell ss:StyleID="boldGreyBorderLRB">
+          <Data ss:Type="String">2001</Data>
+        </Cell>
+        <Cell ss:StyleID="boldGreyBorderLRB">
+          <Data ss:Type="String">ConcenRank</Data>
+        </Cell>
+        <Cell ss:StyleID="boldGreyBorderLRB">
+          <Data ss:Type="String">2002</Data>
+        </Cell>
+        <Cell ss:StyleID="boldGreyBorderLRB">
+          <Data ss:Type="String">ConcenRank</Data>
+        </Cell>
+        <Cell ss:StyleID="boldGreyBorderLRB">
+          <Data ss:Type="String">2003</Data>
+        </Cell>
+        <Cell ss:StyleID="boldGreyBorderLRB">
+          <Data ss:Type="String">ConcenRank</Data>
+        </Cell>
+        <Cell ss:StyleID="boldGreyBorderLRB">
+          <Data ss:Type="String">2004</Data>
+        </Cell>
+        <Cell ss:StyleID="boldGreyBorderLRB">
+          <Data ss:Type="String">ConcenRank</Data>
+        </Cell>
+        <Cell ss:StyleID="boldGreyBorderLRB">
+          <Data ss:Type="String">2005</Data>
+        </Cell>
+        <Cell ss:StyleID="boldGreyBorderLRB">
+          <Data ss:Type="String">ConcenRank</Data>
+        </Cell>
+        <Cell ss:StyleID="boldGreyBorderLRB">
+          <Data ss:Type="String">2006</Data>
+        </Cell>
+        <Cell ss:StyleID="boldGreyBorderLRB">
+          <Data ss:Type="String">ConcenRank</Data>
+        </Cell>
+        <Cell ss:StyleID="boldGreyBorderLRB">
+          <Data ss:Type="String">2007</Data>
+        </Cell>
+        <Cell ss:StyleID="boldGreyBorderLRB">
+          <Data ss:Type="String">ConcenRank</Data>
+        </Cell>
+        <Cell ss:StyleID="boldGreyBorderLRB">
+          <Data ss:Type="String">2008</Data>
+        </Cell>
+        <Cell ss:StyleID="boldGreyBorderLRB">
+          <Data ss:Type="String">ConcenRank</Data>
+        </Cell>
+        <Cell ss:StyleID="boldGreyBorderLRB">
+          <Data ss:Type="String">2009</Data>
+        </Cell>
+        <Cell ss:StyleID="boldGreyBorderLRB">
+          <Data ss:Type="String">ConcenRank</Data>
+        </Cell>
+        <Cell ss:StyleID="boldGreyBorderLRB">
+          <Data ss:Type="String">2010</Data>
+        </Cell>
+        <Cell ss:StyleID="boldGreyBorderLRB">
+          <Data ss:Type="String">ConcenRank</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">100510</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Not Reported</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">112281</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">10</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">74173</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">10</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">10621</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">10</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">8551</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">10</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">8371</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">10</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">4598</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">10</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">4380</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">10</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">4313</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">10</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">4094</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">10</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">3945</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">10</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">3475</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">10</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">3428</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">10</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">100520</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Less than 5</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">320210</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">20</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">356786</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">20</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">425136</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">20</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">425690</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">20</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">421826</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">20</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">426646</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">20</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">436716</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">20</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">436583</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">20</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">436020</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">20</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">434499</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">20</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">440427</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">20</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">435039</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">20</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">100530</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">5 to less than 10</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">12297</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">30</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">13507</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">30</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">8143</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">30</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">7527</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">30</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">13293</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">30</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">12497</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">30</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">3461</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">30</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">3447</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">30</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">10080</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">30</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">11750</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">30</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">6150</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">30</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">11900</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">30</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">100540</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">10 to less than 20</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">5637</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">40</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">5959</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">40</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">6173</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">40</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">8389</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">40</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">6667</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">40</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">6731</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">40</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">352</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">40</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">566</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">40</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">315</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">40</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">315</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">40</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">457</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">40</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">142</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">40</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">100550</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">20 to less than 30</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">84</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">50</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">84</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">50</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">399</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">50</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">315</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">50</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">352</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">50</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">37</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">50</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">5600</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">50</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">5600</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">50</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">0</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">50</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">0</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">50</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">0</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">50</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">0</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">50</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">100560</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">30+</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">0</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">60</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">0</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">60</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">37</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">60</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">37</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">60</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">0</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">60</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">0</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">60</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">0</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">60</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">0</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">60</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">0</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">60</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">0</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">60</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">0</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">60</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">0</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">60</Data>
+        </Cell>
+      </Row>
+    </Table>
+  </Worksheet>
+  <Worksheet ss:Name="Metadata" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+    <Table ss:StyleID="defStyle">
+      <Column ss:AutoFitWidth="1" />
+      <Column ss:AutoFitWidth="1" />
+      <Column ss:AutoFitWidth="1" />
+      <Column ss:AutoFitWidth="1" />
+      <Row>
+        <Cell ss:StyleID="boldGreyBorderLRB">
+          <Data ss:Type="String">ElementType</Data>
+        </Cell>
+        <Cell ss:StyleID="boldGreyBorderLRB">
+          <Data ss:Type="String">Element</Data>
+        </Cell>
+        <Cell ss:StyleID="boldGreyBorderLRB">
+          <Data ss:Type="String">MetadataElement</Data>
+        </Cell>
+        <Cell ss:StyleID="boldGreyBorderLRB">
+          <Data ss:Type="String">Value</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">Indicator</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Number of People by Annual Mean Arsenic Concentration</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ias:DomMeasure</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NumberofPeoplebyAnnualMeanArsenicConcentration</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">Indicator</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Number of People by Annual Mean Arsenic Concentration</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">metatext</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Number of People by Annual Mean Arsenic Concentration</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">Indicator</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Number of People by Annual Mean Arsenic Concentration</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">type</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">numeric</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">Indicator</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Number of People by Annual Mean Arsenic Concentration</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">precision</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">0</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">Indicator</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Number of People by Annual Mean Arsenic Concentration</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">minChartValue</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">0</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">Indicator</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Number of People by Annual Mean Arsenic Concentration</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">maxChartValue</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">450000</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">Indicator</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Number of People by Annual Mean Arsenic Concentration</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ias:DomMeasure</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NumberofPeoplebyAnnualMeanArsenicConcentration</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">Indicator</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Number of People by Annual Mean Arsenic Concentration</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">metatext</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Number of People by Annual Mean Arsenic Concentration</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">Indicator</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Number of People by Annual Mean Arsenic Concentration</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">type</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">numeric</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">Indicator</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Number of People by Annual Mean Arsenic Concentration</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">precision</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">0</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">Indicator</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Number of People by Annual Mean Arsenic Concentration</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">minChartValue</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">0</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">Indicator</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Number of People by Annual Mean Arsenic Concentration</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">maxChartValue</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">450000</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">Indicator</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Number of People by Annual Mean Arsenic Concentration</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ias:DomMeasure</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NumberofPeoplebyAnnualMeanArsenicConcentration</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">Indicator</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Number of People by Annual Mean Arsenic Concentration</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">metatext</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Number of People by Annual Mean Arsenic Concentration</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">Indicator</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Number of People by Annual Mean Arsenic Concentration</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">type</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">numeric</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">Indicator</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Number of People by Annual Mean Arsenic Concentration</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">precision</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">0</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">Indicator</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Number of People by Annual Mean Arsenic Concentration</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">minChartValue</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">0</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">Indicator</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Number of People by Annual Mean Arsenic Concentration</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">maxChartValue</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">450000</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">Indicator</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Number of People by Annual Mean Arsenic Concentration</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ias:DomMeasure</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NumberofPeoplebyAnnualMeanArsenicConcentration</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">Indicator</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Number of People by Annual Mean Arsenic Concentration</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">metatext</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Number of People by Annual Mean Arsenic Concentration</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">Indicator</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Number of People by Annual Mean Arsenic Concentration</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">type</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">numeric</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">Indicator</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Number of People by Annual Mean Arsenic Concentration</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">precision</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">0</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">Indicator</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Number of People by Annual Mean Arsenic Concentration</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">minChartValue</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">0</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">Indicator</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Number of People by Annual Mean Arsenic Concentration</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">maxChartValue</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">450000</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">Indicator</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Number of People by Annual Mean Arsenic Concentration</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ias:DomMeasure</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NumberofPeoplebyAnnualMeanArsenicConcentration</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">Indicator</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Number of People by Annual Mean Arsenic Concentration</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">metatext</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Number of People by Annual Mean Arsenic Concentration</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">Indicator</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Number of People by Annual Mean Arsenic Concentration</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">type</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">numeric</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">Indicator</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Number of People by Annual Mean Arsenic Concentration</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">precision</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">0</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">Indicator</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Number of People by Annual Mean Arsenic Concentration</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">minChartValue</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">0</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">Indicator</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Number of People by Annual Mean Arsenic Concentration</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">maxChartValue</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">450000</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">Indicator</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Number of People by Annual Mean Arsenic Concentration</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ias:DomMeasure</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NumberofPeoplebyAnnualMeanArsenicConcentration</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">Indicator</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Number of People by Annual Mean Arsenic Concentration</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">metatext</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Number of People by Annual Mean Arsenic Concentration</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">Indicator</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Number of People by Annual Mean Arsenic Concentration</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">type</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">numeric</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">Indicator</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Number of People by Annual Mean Arsenic Concentration</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">precision</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">0</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">Indicator</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Number of People by Annual Mean Arsenic Concentration</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">minChartValue</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">0</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">Indicator</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Number of People by Annual Mean Arsenic Concentration</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">maxChartValue</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">450000</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">Indicator</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Number of People by Annual Mean Arsenic Concentration</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ias:DomMeasure</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NumberofPeoplebyAnnualMeanArsenicConcentration</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">Indicator</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Number of People by Annual Mean Arsenic Concentration</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">metatext</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Number of People by Annual Mean Arsenic Concentration</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">Indicator</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Number of People by Annual Mean Arsenic Concentration</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">type</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">numeric</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">Indicator</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Number of People by Annual Mean Arsenic Concentration</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">precision</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">0</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">Indicator</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Number of People by Annual Mean Arsenic Concentration</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">minChartValue</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">0</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">Indicator</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Number of People by Annual Mean Arsenic Concentration</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">maxChartValue</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">450000</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">Indicator</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Number of People by Annual Mean Arsenic Concentration</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ias:DomMeasure</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NumberofPeoplebyAnnualMeanArsenicConcentration</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">Indicator</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Number of People by Annual Mean Arsenic Concentration</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">metatext</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Number of People by Annual Mean Arsenic Concentration</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">Indicator</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Number of People by Annual Mean Arsenic Concentration</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">type</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">numeric</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">Indicator</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Number of People by Annual Mean Arsenic Concentration</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">precision</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">0</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">Indicator</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Number of People by Annual Mean Arsenic Concentration</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">minChartValue</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">0</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">Indicator</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Number of People by Annual Mean Arsenic Concentration</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">maxChartValue</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">450000</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">Indicator</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Number of People by Annual Mean Arsenic Concentration</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ias:DomMeasure</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NumberofPeoplebyAnnualMeanArsenicConcentration</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">Indicator</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Number of People by Annual Mean Arsenic Concentration</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">metatext</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Number of People by Annual Mean Arsenic Concentration</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">Indicator</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Number of People by Annual Mean Arsenic Concentration</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">type</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">numeric</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">Indicator</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Number of People by Annual Mean Arsenic Concentration</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">precision</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">0</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">Indicator</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Number of People by Annual Mean Arsenic Concentration</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">minChartValue</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">0</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">Indicator</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Number of People by Annual Mean Arsenic Concentration</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">maxChartValue</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">450000</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">Indicator</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Number of People by Annual Mean Arsenic Concentration</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ias:DomMeasure</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NumberofPeoplebyAnnualMeanArsenicConcentration</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">Indicator</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Number of People by Annual Mean Arsenic Concentration</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">metatext</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Number of People by Annual Mean Arsenic Concentration</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">Indicator</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Number of People by Annual Mean Arsenic Concentration</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">type</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">numeric</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">Indicator</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Number of People by Annual Mean Arsenic Concentration</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">precision</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">0</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">Indicator</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Number of People by Annual Mean Arsenic Concentration</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">minChartValue</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">0</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">Indicator</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Number of People by Annual Mean Arsenic Concentration</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">maxChartValue</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">450000</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">Indicator</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Number of People by Annual Mean Arsenic Concentration</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ias:DomMeasure</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NumberofPeoplebyAnnualMeanArsenicConcentration</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">Indicator</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Number of People by Annual Mean Arsenic Concentration</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">metatext</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Number of People by Annual Mean Arsenic Concentration</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">Indicator</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Number of People by Annual Mean Arsenic Concentration</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">type</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">numeric</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">Indicator</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Number of People by Annual Mean Arsenic Concentration</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">precision</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">0</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">Indicator</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Number of People by Annual Mean Arsenic Concentration</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">minChartValue</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">0</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">Indicator</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Number of People by Annual Mean Arsenic Concentration</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">maxChartValue</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">450000</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">Indicator</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Number of People by Annual Mean Arsenic Concentration</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">ias:DomMeasure</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">NumberofPeoplebyAnnualMeanArsenicConcentration</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">Indicator</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Number of People by Annual Mean Arsenic Concentration</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">metatext</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Number of People by Annual Mean Arsenic Concentration</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">Indicator</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Number of People by Annual Mean Arsenic Concentration</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">type</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">numeric</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">Indicator</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Number of People by Annual Mean Arsenic Concentration</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">precision</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">0</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">Indicator</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Number of People by Annual Mean Arsenic Concentration</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">minChartValue</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">0</Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell>
+          <Data ss:Type="String">Indicator</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">Number of People by Annual Mean Arsenic Concentration</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">maxChartValue</Data>
+        </Cell>
+        <Cell>
+          <Data ss:Type="String">450000</Data>
+        </Cell>
+      </Row>
+    </Table>
+  </Worksheet>
+</Workbook>
