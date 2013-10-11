@@ -10,7 +10,7 @@
 // --------------------------------------------------
 
 // DIV to help size map. Fix later. ~Tyler 
-echo '<div style="height:512px; width:512px;">';
+echo '<div id="map_content" style="height:512px; width:512px;">';
 
 // Map script goes here
 include("map_scripts/map_script.php");
