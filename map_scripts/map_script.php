@@ -2607,15 +2607,6 @@ new google.maps.LatLng(43.41895, -72.399)
 	lamoilleCounty,orangeCounty,orleansCounty,rutlandCounty,washingtonCounty,windhamCounty,windsorCounty];
 
 
-	// google.maps.event.addListener(rutlandCounty,"click", function(overlay,latlng) {
-	// 	this.setOptions({fillColor: "#0FF000"});
-	// 	var infoWindow = new google.maps.InfoWindow();
- //    	infoWindow.setContent(rutlandCounty.get("shortTitle")+"\nInformation : " + rutlandCounty.get("description"));
-
- //    	//the location of one point in the county
- //    	infoWindow.setPosition(new google.maps.LatLng(43.703622,-73.048954));     
-	//    	infoWindow.open(map);;
-	// })
 
 	for (var i = 0; i < counties.length; i++) {
 		// Listeners to show county bubbles
@@ -2633,6 +2624,7 @@ new google.maps.LatLng(43.41895, -72.399)
 		   	this.setOptions({fillColor: "ff0800"}),
 		   	this.setOptions({strokeWeight: 4})
 		   	//this.setOptions({fillOpacity: 0.75})
+		   	passVal("hello world")
 		   	
 
 		})
@@ -2645,21 +2637,7 @@ new google.maps.LatLng(43.41895, -72.399)
 		});
 		//Now send the information cross-platform to the PHP hopefully:
 		
-			if (window.XMLHttpRequest){
-			    xmlhttp=new XMLHttpRequest();
-			}
-
-			else{
-			    xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
-			}
-
-			var PageToSendTo = "info.php?";
-			var MyVariable = "variableData";
-			var VariablePlaceholder = "countySelected";
-			var UrlToSend = PageToSendTo + VariablePlaceholder + VariablePlaceholder;
-
-			xmlhttp.open("GET", UrlToSend, false);
-			xmlhttp.send();
+		
 		
 	}
 	function deselectAll(){
@@ -2671,6 +2649,34 @@ new google.maps.LatLng(43.41895, -72.399)
 		   	}
 
 	}
+	//experimental
+	function passVal(str)
+	{
+		if (str.length==0)
+		  { 
+		  document.getElementById("txtHint").innerHTML="";
+		  return;
+		  }
+		if (window.XMLHttpRequest)
+		  {// code for IE7+, Firefox, Chrome, Opera, Safari
+		  xmlhttp=new XMLHttpRequest();
+		  }
+		else
+		  {// code for IE6, IE5
+		  xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+		  }
+		xmlhttp.onreadystatechange=function()
+		  {
+		  if (xmlhttp.readyState==4 && xmlhttp.status==200)
+		    {
+		    document.getElementById("txtHint").innerHTML=xmlhttp.responseText;
+		    }
+		  }
+		xmlhttp.open("GET","info.php?q="+str,true);
+		xmlhttp.send();
+	}
+
+	
 
 
 
