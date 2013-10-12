@@ -6,7 +6,7 @@ $connectionInfo = array( "Database"=>"HackVT", "UID"=>"hackvt", "PWD"=>"Hacked!7
 $dbhandle = sqlsrv_connect( $serverName, $connectionInfo);
 
 if( $dbhandle ) {
-     echo "Connection established.<br />";
+     "Connection established.<br />";
 }else{
      echo "Connection could not be established.<br />";
      die( print_r( sqlsrv_errors(), true));
@@ -19,13 +19,14 @@ $query = "SELECT DISTINCT OrgName FROM dbo.Necap_Data ";
 
 
 //execute the SQL query and return records
-$result = sqlsrv_query($dbhandle, $query, null, array("Scrollable"=>"buffered"));
+$result = sqlsrv_query($dbhandle, $query, null);
 
-if($stmt === false)
+if($result === false)
     die(print_r(sqlsrv_errors(), true));
 
-echo $result; 
-
+while( $row = sqlsrv_fetch_array( $result, SQLSRV_FETCH_ASSOC) ) {
+      echo $row['OrgName']."<br />";
+}
 
 //close the connection
 sqlsrv_close($dbhandle);
@@ -51,7 +52,5 @@ sqlsrv_close($dbhandle);
 </head>
 
 <body>
-<?php echo "hello world" ?>
-
 </body>
 </html>
