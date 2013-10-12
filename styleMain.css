@@ -1,8 +1,11 @@
 /* Main CSS Stylesheet */
 
+body{background-color:#33CC99;}
+
 h2
 {
 display: inline-block; 
 vertical-align: top;
 margin: 0;
+font-family:"Helvetica";
 }
