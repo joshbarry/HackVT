@@ -2382,6 +2382,7 @@ new google.maps.LatLng(43.41895, -72.399)
 		strokeWeight: 2,
 		fillColor: '#FF0000',
 		fillOpacity: 0.35
+
 		});
 	addisonCounty.setMap(map);
 	
@@ -2519,28 +2520,108 @@ new google.maps.LatLng(43.41895, -72.399)
 		});
 	windsorCounty.setMap(map);
 
-	//r counties =[addisonCounty,benningtonCounty]
-	//r county in counties{
-	//illColor.set("00FF00")
-	//
-	// Listeners to show county bubbles
-	google.maps.event.addListener(rutlandCounty,"click", function(overlay,latlng) {
-		this.setOptions({fillColor: "#0FF000"});
-		var infoWindow = new google.maps.InfoWindow();
-    	infoWindow.setContent(rutlandCounty.get("shortTitle")+"\nInformation : " + rutlandCounty.get("description"));
+	//now a paralel marker list for counties:
 
-    	//the location of one point in the county
-    	infoWindow.setPosition(new google.maps.LatLng(43.703622,-73.048954));     
-    	infoWindow.open(map);;
+	 var addisonMarker = new google.maps.Marker({
+	      position: new google.maps.LatLng(44.05, -73.116667),
+	      map: map,
+	      title: 'Addison County'
+	});
+	 var benningtonMarker = new google.maps.Marker({
+	      position: new google.maps.LatLng(42.872693,-73.203331),
+	      map: map,
+	      title: 'Bennington County'
+	});
+	 var caledoniaMarker = new google.maps.Marker({
+	      position: new google.maps.LatLng(44.516093,-72.087221),
+	      map: map,
+	      title: 'Calendonia County'
+	});
+	 var chittendenMarker = new google.maps.Marker({
+	      position: new google.maps.LatLng(43.770102,-72.920487),
+	      map: map,
+	      title: 'Chittenden County'
+	});
+	 var essexMarker = new google.maps.Marker({
+	      position: new google.maps.LatLng(44.541548,-73.081849),
+	      map: map,
+	      title: 'Essex County'
+	});
+	 var franklinMarker = new google.maps.Marker({
+	      position: new google.maps.LatLng(44.919112,-72.963166),
+	      map: map,
+	      title: 'Franklin County'
+	});
+	 var grandisleMarker = new google.maps.Marker({
+	      position: new google.maps.LatLng(44.743807,-73.324177),
+	      map: map,
+	      title: 'Grand Isle County'
+	});
+	 var lamoilleMarker = new google.maps.Marker({
+	      position: new google.maps.LatLng(44.624686,-72.674761),
+	      map: map,
+	      title: 'Lamoille County'
+	});
+	 var orangeMarker = new google.maps.Marker({
+	      position: new google.maps.LatLng(44.011583,-72.349291),
+	      map: map,
+	      title: 'Orange County'
+	});
+	 var orleansMarker = new google.maps.Marker({
+	      position: new google.maps.LatLng(44.81244,-72.204086),
+	      map: map,
+	      title: 'Orleans County'
+	});
+	 var rutlandMarker = new google.maps.Marker({
+	      position: new google.maps.LatLng(43.662905,-73.059282),
+	      map: map,
+	      title: 'Rutland County'
+	});
+	 var washingtonMarker = new google.maps.Marker({
+	      position: new google.maps.LatLng(44.315005,-72.619829),
+	      map: map,
+	      title: 'Washington County'
+	});
+	 var windhamMarker = new google.maps.Marker({
+	      position: new google.maps.LatLng(43.180646,-72.722332),
+	      map: map,
+	      title: 'Windham County'
+	});
+	 var windsorMarker = new google.maps.Marker({
+	      position: new google.maps.LatLng(43.485061,-72.423985),
+	      map: map,
+	      title: 'Windsor County'
 	});
 
-	//another approach to see if responsive:
-	google.maps.event.addListener(windsorCounty,"mouseover",function(){
- 		this.setOptions({fillColor: "#00FF00"});
-	}); 
-	google.maps.event.addListener(windsorCounty,"mouseout",function(){
- 		this.setOptions({fillColor: "#FF0000"});
-	});
+
+	var countyMarkers = [addisonMarker,benningtonMarker,caledoniaMarker,chittendenMarker,essexMarker,franklinMarker,grandisleMarker,
+	lamoilleMarker,orangeMarker,orleansMarker,rutlandMarker,washingtonMarker,windhamMarker,windsorMarker];
+
+	var counties =[addisonCounty,benningtonCounty,caledoniaCounty,chittendenCounty,essexCounty,franklinCounty,grandisleCounty,
+	lamoilleCounty,orangeCounty,orleansCounty,rutlandCounty,washingtonCounty,windhamCounty,windsorCounty];
+
+
+
+	for (var i = 0; i < counties.length; i++) {
+		// Listeners to show county bubbles
+		google.maps.event.addListener(counties[i],"click", function(overlay,latlng) {
+			this.setOptions({fillColor: "#0FF000"});
+			var infoWindow = new google.maps.InfoWindow();
+	    	infoWindow.setContent(counties[i].get("shortTitle")+"\nInformation : " + counties[i].get("description"));
+
+	    	//the location of one point in the county
+	    	infoWindow.setPosition(new google.maps.LatLng(43.485061,-72.423985));     //getcenter might be imaginary
+	    	infoWindow.open(map);;
+		});
+		//hoverlisteners:
+		google.maps.event.addListener(counties[i],"mouseover",function(){
+	 		this.setOptions({fillColor: "#00FF00"});
+		}); 
+		google.maps.event.addListener(counties[i],"mouseout",function(){
+	 		this.setOptions({fillColor: "#FF0000"});
+		});
+	}
+	
 
 
 	}
