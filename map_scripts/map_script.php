@@ -2627,6 +2627,21 @@ new google.maps.LatLng(43.41895, -72.399)
  //    	infoWindow.setPosition(new google.maps.LatLng(43.703622,-73.048954));     
 	//    	infoWindow.open(map);;
 	// })
+	
+	// See if we selected a county. If so, Highlight that puppy.
+	// Thanks Ari! ~Tyler Sawyer
+	var temp = window.location.href.split("=");
+	var currentCountyName = temp[1];
+	for (var i = 0; i < counties.length; i++) {
+		var tempo = counties[i].get("shortTitle");
+		if(tempo==currentCountyName)
+		{ 
+			counties[i].setOptions({strokeColor:"ff0800"}), 
+			counties[i].setOptions({fillColor: "ff0800"}), 
+			counties[i].setOptions({strokeWeight: 4}) 
+		} 
+	}
+	// For the record, TYLER SAVES THE DAY.
 
 	for (var i = 0; i < counties.length; i++) {
 		// Listeners to show county bubbles
