@@ -2644,6 +2644,23 @@ new google.maps.LatLng(43.41895, -72.399)
 	 		this.setOptions({fillOpacity: 0.45});
 		});
 		//Now send the information cross-platform to the PHP hopefully:
+		
+			if (window.XMLHttpRequest){
+			    xmlhttp=new XMLHttpRequest();
+			}
+
+			else{
+			    xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+			}
+
+			var PageToSendTo = "info.php?";
+			var MyVariable = "variableData";
+			var VariablePlaceholder = "countySelected";
+			var UrlToSend = PageToSendTo + VariablePlaceholder + VariablePlaceholder;
+
+			xmlhttp.open("GET", UrlToSend, false);
+			xmlhttp.send();
+		
 	}
 	function deselectAll(){
 		for (var a = 0; a < counties.length; a++) {
@@ -2654,11 +2671,6 @@ new google.maps.LatLng(43.41895, -72.399)
 		   	}
 
 	}
-	<form id="myForm" action="comment.php" method="post"> 
-    Name: <input type="text" name="name" /> 
-    Comment: <textarea name="comment"></textarea> 
-    <input type="submit" value="Submit Comment" /> 
-	</form>
 
 
 
