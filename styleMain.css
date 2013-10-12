@@ -5,7 +5,7 @@ body{background-color:#33CC99;}
 h2
 {
 display: inline-block; 
-vertical-align: middle;
+vertical-align: 50%;
 margin: 0;
 font-family:"Helvetica";
 }
