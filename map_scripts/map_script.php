@@ -2382,17 +2382,18 @@ new google.maps.LatLng(43.41895, -72.399)
 
 
 	var addisonCounty = new google.maps.Polygon({
+		shortTitle: "Addison",
 		paths: addisonCoords,
 		strokeColor: '#FF0000',
 		strokeOpacity: 0.8,
 		strokeWeight: 2,
 		fillColor: '#FF0000',
 		fillOpacity: 0.45
-
 		});
 	addisonCounty.setMap(map);
 	
 	var benningtonCounty = new google.maps.Polygon({
+		shortTitle: "Bennington",
 		paths: benningtonCoords,
 		strokeColor: '#FF0000',
 		strokeOpacity: 0.8,
@@ -2403,6 +2404,7 @@ new google.maps.LatLng(43.41895, -72.399)
 	benningtonCounty.setMap(map);
 	
 	var caledoniaCounty = new google.maps.Polygon({
+		shortTitle: "Caledonia",
 		paths: caledoniaCoords,
 		strokeColor: '#FF0000',
 		strokeOpacity: 0.8,
@@ -2413,6 +2415,7 @@ new google.maps.LatLng(43.41895, -72.399)
 	caledoniaCounty.setMap(map);
 	
 	var chittendenCounty = new google.maps.Polygon({
+		shortTitle: "Chittenden",
 		paths: chittendenCoords,
 		strokeColor: '#FF0000',
 		strokeOpacity: 0.8,
@@ -2423,6 +2426,7 @@ new google.maps.LatLng(43.41895, -72.399)
 	chittendenCounty.setMap(map);
 	
 	var essexCounty = new google.maps.Polygon({
+		shortTitle: "Essex",
 		paths: essexCoords,
 		strokeColor: '#FF0000',
 		strokeOpacity: 0.8,
@@ -2433,6 +2437,7 @@ new google.maps.LatLng(43.41895, -72.399)
 	essexCounty.setMap(map);
 	
 	var franklinCounty = new google.maps.Polygon({
+		shortTitle: "Franklin",
 		paths: franklinCoords,
 		strokeColor: '#FF0000',
 		strokeOpacity: 0.8,
@@ -2443,6 +2448,7 @@ new google.maps.LatLng(43.41895, -72.399)
 	franklinCounty.setMap(map);
 	
 	var grandisleCounty = new google.maps.Polygon({
+		shortTitle: "GrandIsle",
 		paths: grandisleCoords,
 		strokeColor: '#FF0000',
 		strokeOpacity: 0.8,
@@ -2453,6 +2459,7 @@ new google.maps.LatLng(43.41895, -72.399)
 	grandisleCounty.setMap(map);
 	
 	var lamoilleCounty = new google.maps.Polygon({
+		shortTitle: "Lamoille",
 		paths: lamoilleCoords,
 		strokeColor: '#FF0000',
 		strokeOpacity: 0.8,
@@ -2463,6 +2470,7 @@ new google.maps.LatLng(43.41895, -72.399)
 	lamoilleCounty.setMap(map);
 	
 	var orangeCounty = new google.maps.Polygon({
+		shortTitle: "Orange",
 		paths: orangeCoords,
 		strokeColor: '#FF0000',
 		strokeOpacity: 0.8,
@@ -2473,6 +2481,7 @@ new google.maps.LatLng(43.41895, -72.399)
 	orangeCounty.setMap(map);
 	
 	var orleansCounty = new google.maps.Polygon({
+		shortTitle: "Orleans",
 		paths: orleansCoords,
 		strokeColor: '#FF0000',
 		strokeOpacity: 0.8,
@@ -2495,6 +2504,7 @@ new google.maps.LatLng(43.41895, -72.399)
 	rutlandCounty.setMap(map);
 	
 	var washingtonCounty = new google.maps.Polygon({
+		shortTitle: "Washington",
 		paths: washingtonCoords,
 		strokeColor: '#FF0000',
 		strokeOpacity: 0.8,
@@ -2505,6 +2515,7 @@ new google.maps.LatLng(43.41895, -72.399)
 	washingtonCounty.setMap(map);
 	
 	var windhamCounty = new google.maps.Polygon({
+		shortTitle: "Windham",
 		paths: windhamCoords,
 		strokeColor: '#FF0000',
 		strokeOpacity: 0.8,
@@ -2607,6 +2618,15 @@ new google.maps.LatLng(43.41895, -72.399)
 	lamoilleCounty,orangeCounty,orleansCounty,rutlandCounty,washingtonCounty,windhamCounty,windsorCounty];
 
 
+	// google.maps.event.addListener(rutlandCounty,"click", function(overlay,latlng) {
+	// 	this.setOptions({fillColor: "#0FF000"});
+	// 	var infoWindow = new google.maps.InfoWindow();
+ //    	infoWindow.setContent(rutlandCounty.get("shortTitle")+"\nInformation : " + rutlandCounty.get("description"));
+
+ //    	//the location of one point in the county
+ //    	infoWindow.setPosition(new google.maps.LatLng(43.703622,-73.048954));     
+	//    	infoWindow.open(map);;
+	// })
 
 	for (var i = 0; i < counties.length; i++) {
 		// Listeners to show county bubbles
@@ -2624,7 +2644,10 @@ new google.maps.LatLng(43.41895, -72.399)
 		   	this.setOptions({fillColor: "ff0800"}),
 		   	this.setOptions({strokeWeight: 4})
 		   	//this.setOptions({fillOpacity: 0.75})
-		   	passVal("hello world")
+			
+			// Send data to URL for php interpretation and reload page
+			// Tyler J. Sawyer - 05:40 on October 12, 2013 (Saturday)
+			window.location.href = '?&county='+this.get("shortTitle");
 		   	
 
 		})
@@ -2635,9 +2658,6 @@ new google.maps.LatLng(43.41895, -72.399)
 		google.maps.event.addListener(counties[i],"mouseout",function(){
 	 		this.setOptions({fillOpacity: 0.45});
 		});
-		//Now send the information cross-platform to the PHP hopefully:
-		
-		
 		
 	}
 	function deselectAll(){
@@ -2649,34 +2669,6 @@ new google.maps.LatLng(43.41895, -72.399)
 		   	}
 
 	}
-	//experimental
-	function passVal(str)
-	{
-		if (str.length==0)
-		  { 
-		  document.getElementById("txtHint").innerHTML="";
-		  return;
-		  }
-		if (window.XMLHttpRequest)
-		  {// code for IE7+, Firefox, Chrome, Opera, Safari
-		  xmlhttp=new XMLHttpRequest();
-		  }
-		else
-		  {// code for IE6, IE5
-		  xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
-		  }
-		xmlhttp.onreadystatechange=function()
-		  {
-		  if (xmlhttp.readyState==4 && xmlhttp.status==200)
-		    {
-		    document.getElementById("txtHint").innerHTML=xmlhttp.responseText;
-		    }
-		  }
-		xmlhttp.open("GET","info.php?q="+str,true);
-		xmlhttp.send();
-	}
-
-	
 
 
 
