@@ -24,6 +24,14 @@ h3
 
 /* ID tags */
 
+/* Wrapper encapsulates EVERYTHING */
+#wrapper
+{
+	width:980px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
 /* Titlebar controls the contents 'logo' and 'title'. Think of this as a fat
 bar that encapsulates everything. */
 #titlebar
@@ -43,14 +51,14 @@ bar that encapsulates everything. */
 	text-align: center;
 	font-family: 'IM Fell DW Pica SC', serif;
 	color: #FF0000;
-	float: left;
-	padding-left:20px;
 	padding-top:25px;
 }
 
 /* logo controls the logo icon in the top left. */
 #logo
 {
+	margin-left:auto;
+	margin-right:auto;
 	padding-top:3px;
 	padding-left:20px;
 	float:left;

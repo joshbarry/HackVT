@@ -17,6 +17,7 @@
 </head>
 
 <body>
+<div id="wrapper">
 <div id="titlebar">
 <?php include("header.php"); ?>
 </div>
@@ -32,6 +33,7 @@
 </div>
 <div id="copyright">
 <?php include("copyright.php"); ?>
+</div>
 </div>
 </body>
 </html>
