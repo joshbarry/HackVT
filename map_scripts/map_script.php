@@ -2504,6 +2504,8 @@ new google.maps.LatLng(43.41895, -72.399)
 	windhamCounty.setMap(map);
 	
 	var windsorCounty = new google.maps.Polygon({
+		description: "Windsor County Description goes here",
+		shortTitle: "Windsor",
 		paths: windsorCoords,
 		strokeColor: '#FF0000',
 		strokeOpacity: 0.8,
@@ -2512,6 +2514,11 @@ new google.maps.LatLng(43.41895, -72.399)
 		fillOpacity: 0.35
 		});
 	windsorCounty.setMap(map);
+	
+	// Listeners to show county bubbles
+	GEvent.addListener(windsorCounty, "click", function(overlay,latlng) {
+		map.openInfoWindowHtml(overlay, '<strong>Your html things :</strong><br />etc...');
+	});
 
 	}
 	// Load the map (initializer)
