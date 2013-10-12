@@ -81,8 +81,8 @@ bar that encapsulates everything. */
  and the pop-up description box */
 #mainbody_content
 {
-	padding-top:75px;
-	top:75px;
+	padding-top:85px;
+	padding-left:15px;
 }
 
 /* map_content controls the location of the map HUD */
@@ -96,11 +96,12 @@ bar that encapsulates everything. */
 }
 
 /* navigation is the menu settings to the right of the map */
-#navigation
+#navigation_wrap
 {
-	float:right;
+	float:left;
 	min-height: 384px;
 	min-width: 100px;
+	padding-left: 405px;
 	border:2px ridge #1E6636;
 }
 
@@ -110,9 +111,13 @@ grade averages, bananas, etc. */
 #infobox
 {
 	position:fixed;
-	top:474px;
+	top:490px;
+	padding-left:15px;
 	min-height:75px;
-	width:980px;
+	min-width:800px;
+	max-width:800px;
+	margin-left:auto;
+	margin-right:auto;
 	border:2px ridge #1E6636;
 }
 
@@ -120,8 +125,9 @@ grade averages, bananas, etc. */
 #copyright
 {
 	position:fixed;
-	text-align:center;
 	bottom:0;
+	padding-left:30px;
+	text-align:center;
 }
 
 

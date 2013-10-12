@@ -28,13 +28,13 @@
 <div id="navigation_wrap">
 <?php include("nav.php"); ?>
 </div>
-</div>
 <div id="infobox">
 <?php include("info.php"); ?>
 </div>
+</div>
+</div>
 <div id="copyright">
 <?php include("copyright.php"); ?>
-</div>
 </div>
 </body>
 </html>
