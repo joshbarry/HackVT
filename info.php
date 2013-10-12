@@ -1,6 +1,6 @@
 <?php
 
 //Info
-echo "<p>CHIEF, YOUR COUNTY IS NAMED : ".$selectedCounty."</p>";
+echo "<p>COUNTY: ".$selectedCounty." <br />LOLDATA : ".$TESTME."</p>";
 
 ?>
