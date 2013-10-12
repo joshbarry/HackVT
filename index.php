@@ -17,6 +17,7 @@
 </head>
 
 <body>
+<div id="left_bb-border"></div><div id="right_bb-border"></div><div id="top_bb-border"></div><div id="bottom_bb-border"></div>
 <div id="wrapper">
 <div id="titlebar">
 <?php include("header.php"); ?>
