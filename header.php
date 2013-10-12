@@ -7,5 +7,5 @@
 <img src="./images/KarmaLogo.png" id="logo" alt="KarmaLogo" width="64" height="64" />
 </div>
 <div id="title">
-<h2>TEAM KARMA TITLE HERE</h2>
+<h2>Team Karma goes for gold.</h2>
 </div>

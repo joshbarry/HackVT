@@ -11,7 +11,6 @@ h2
 	display: inline-block; 
 	vertical-align: 50%;
 	margin: 0;
-	font-family:"Helvetica";
 }
 
 /* ID tags */
@@ -33,6 +32,7 @@ bar that encapsulates everything. */
 #title
 {
 	text-align: center;
+	font-family: "IM Fell DW Pica SC'" serif;
 	color: #FF0000;
 	float: left;
 	padding-left:20px;
@@ -45,6 +45,13 @@ bar that encapsulates everything. */
 	padding-top:3px;
 	padding-left:20px;
 	float:left;
+}
+
+/* mainbody_content controls the map, the navigation,
+ and the pop-up description box */
+#mainbody_content
+{
+	
 }
 
 #map_content
