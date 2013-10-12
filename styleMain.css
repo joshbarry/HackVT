@@ -32,7 +32,7 @@ bar that encapsulates everything. */
 #title
 {
 	text-align: center;
-	font-family: "IM Fell DW Pica SC'" serif;
+	font-family: 'IM Fell DW Pica SC', serif;
 	color: #FF0000;
 	float: left;
 	padding-left:20px;
