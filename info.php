@@ -1,10 +1,6 @@
 <?php
 
 //Info
-echo "<p>lolol</p>";
+echo "<p>CHIEF, YOUR COUNTY IS NAMED : ".$selectedCounty."</p>";
 
-
-
-$q=$_GET["countySelected"];
-echo "<p>value of Q is :".$q."</p>";
 ?>
