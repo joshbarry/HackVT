@@ -5,7 +5,14 @@ body{background-color:#33CC99;}
 h2
 {
 display: inline-block; 
-vertical-align: top;
+vertical-align: middle;
 margin: 0;
 font-family:"Helvetica";
 }
+
+#map_content
+{
+border-style: ridge;
+
+}
+
