@@ -83,9 +83,9 @@ bar that encapsulates everything. */
 /* navigation is the menu settings to the right of the map */
 #navigation
 {
-	min-height:384px;
-	min-width:384px;
 	float:right;
+	min-height: 384px;
+	min-width: 100px;
 	border:2px ridge #1E6636;
 }
 
@@ -97,7 +97,7 @@ grade averages, bananas, etc. */
 	position:fixed;
 	top:474px;
 	min-height:75px;
-	min-width:100%;
+	width:980px;
 	border:2px ridge #1E6636;
 }
 
