@@ -10,6 +10,7 @@
    <meta name="description" content="INSERT DATA HERE" />
 
    <link rel="stylesheet" href="styleMain.css" type="text/css" media="screen" />
+   <link href='http://fonts.googleapis.com/css?family=IM+Fell+DW+Pica+SC' rel='stylesheet' type='text/css'>
    
    <?php include("map.php"); ?>
 
