@@ -21,6 +21,7 @@ h3
 #top_bb-border, #bottom_bb-border, #left_bb-border, #right_bb-border {
 	background: black;
 	position:fixed;
+	z-index: 10;
 }
 /* Chalkboard Widths */
 #left_bb-border, #right_bb-border {
@@ -54,8 +55,8 @@ bar that encapsulates everything. */
 	width: 100%;
 	height: 75px;
 	position: fixed;
-	top: 0px;
-	left: 0px;
+	top: 15px;
+	left: 15px;
 	z-index: 5;
 	background: rgba(180,221,180, 0.90);
 }
