@@ -1,35 +1,35 @@
 <?php
 
-$myServer = "HackVT.db.11612382.hostedresource.com"
-$myUser = "havkvt"
-$myPass = "Hacked!7"
-$myDB = "HackVT"
 
+$serverName = "HackVT.db.11612382.hostedresource.com"; //serverName\instanceName
+$connectionInfo = array( "Database"=>"HackVT", "UID"=>"hackvt", "PWD"=>"Hacked!7");
+$dbhandle = sqlsrv_connect( $serverName, $connectionInfo);
 
-
-
-//connection to the database
-$dbhandle = mssql_connect($myServer, $myUser, $myPass)
-  or die("Couldn't connect to SQL Server on $myServer"); 
+if( $dbhandle ) {
+     "Connection established.<br />";
+}else{
+     echo "Connection could not be established.<br />";
+     die( print_r( sqlsrv_errors(), true));
+}
 
   
-//select a database to work with
-$selected = mssql_select_db($myDB, $dbhandle)
-  or die("Couldn't open database $myDB"); 
 
 //declare the SQL statement that will query the database
 $query = "SELECT DISTINCT OrgName FROM dbo.Necap_Data ";
 
 
 //execute the SQL query and return records
-$result = mssql_query($query);
+$result = sqlsrv_query($dbhandle, $query, null);
 
-$numRows = mssql_num_rows($result); 
-echo $result; 
+if($result === false)
+    die(print_r(sqlsrv_errors(), true));
 
+while( $row = sqlsrv_fetch_array( $result, SQLSRV_FETCH_ASSOC) ) {
+      echo $row['OrgName']."<br />";
+}
 
 //close the connection
-mssql_close($dbhandle);
+sqlsrv_close($dbhandle);
 
 ?>
 
@@ -52,7 +52,5 @@ mssql_close($dbhandle);
 </head>
 
 <body>
-<?php echo "hello world" ?>
-
 </body>
 </html>
