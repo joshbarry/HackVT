@@ -94,13 +94,19 @@ navigation. This displays information like the county, funding,
 grade averages, bananas, etc. */
 #infobox
 {
+	position:fixed;
+	top:474px;
+	min-height:75px;
+	min-width:100%;
 	border:2px ridge #1E6636;
 }
 
 /* copyright styles */
 #copyright
 {
-	
+	position:fixed;
+	text-align:center;
+	bottom:0;
 }
 
 
