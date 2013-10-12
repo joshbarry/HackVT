@@ -18,8 +18,8 @@
 <body>
 <div id="titlebar">
 <?php include("header.php"); ?>
-<?php include("nav.php"); ?>
 </div>
+<?php include("nav.php"); ?>
 <div id="map_content" style="height:512px; width:512px;"></div>
 <!-- No include here ... this is done in the header. -->
 <?php include("info.php"); ?>
