@@ -66,7 +66,7 @@
 		<div class="serverTabContent">
 		<div id="panelIDS3">
 			
-			<select name="year" onchange="" >
+			<select name="year" onsubmit="<? $_POST['year'] ?>" >
 				<option value="?&year=none">--- Select Year ---</option>
 				<option value="2003">2003</option>
 				<option value="2004">2004</option>
