@@ -2373,6 +2373,8 @@ new google.maps.LatLng(43.41895, -72.399)
 		];
 
 		// Build Polygon shapes for counties
+
+
 	var addisonCounty = new google.maps.Polygon({
 		paths: addisonCoords,
 		strokeColor: '#FF0000',
@@ -2474,6 +2476,8 @@ new google.maps.LatLng(43.41895, -72.399)
 	orleansCounty.setMap(map);
 	
 	var rutlandCounty = new google.maps.Polygon({
+		description: "Rutland County Description goes here",
+		shortTitle: "Rutland",
 		paths: rutlandCoords,
 		strokeColor: '#FF0000',
 		strokeOpacity: 0.8,
@@ -2514,17 +2518,30 @@ new google.maps.LatLng(43.41895, -72.399)
 		fillOpacity: 0.35
 		});
 	windsorCounty.setMap(map);
-	
+
+	//r counties =[addisonCounty,benningtonCounty]
+	//r county in counties{
+	//illColor.set("00FF00")
+	//
 	// Listeners to show county bubbles
-	GEvent.addListener(windsorCounty, "click", function(overlay,latlng) {
-		map.openInfoWindowHtml(overlay, '<strong>Your html things :</strong><br />etc...');
+	google.maps.event.addListener(rutlandCounty,"click", function(overlay,latlng) {
+		this.setOptions({fillColor: "#0FF000"});
+		var infoWindow = new google.maps.InfoWindow();
+    	infoWindow.setContent(rutlandCounty.get("shortTitle")+"\nInformation : " + rutlandCounty.get("description"));
+
+    	//the location of one point in the county
+    	infoWindow.setPosition(new google.maps.LatLng(43.703622,-73.048954));     
+    	infoWindow.open(map);;
 	});
 
 	//another approach to see if responsive:
-	google.maps.event.addListener(windsorCounty, 'click', function() {
-    map.setZoom(8);
-    map.setCenter(marker.getPosition());
-  	});
+	google.maps.event.addListener(windsorCounty,"mouseover",function(){
+ 		this.setOptions({fillColor: "#00FF00"});
+	}); 
+	google.maps.event.addListener(windsorCounty,"mouseout",function(){
+ 		this.setOptions({fillColor: "#FF0000"});
+	});
+
 
 	}
 	// Load the map (initializer)
