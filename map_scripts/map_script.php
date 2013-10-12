@@ -2384,10 +2384,10 @@ new google.maps.LatLng(43.41895, -72.399)
 	var addisonCounty = new google.maps.Polygon({
 		shortTitle: "Addison",
 		paths: addisonCoords,
-		strokeColor: '#FF0000',
+		strokeColor: '#003C00',
 		strokeOpacity: 0.8,
 		strokeWeight: 2,
-		fillColor: '#FF0000',
+		fillColor: '#003C00',
 		fillOpacity: 0.45
 		});
 	addisonCounty.setMap(map);
@@ -2395,10 +2395,10 @@ new google.maps.LatLng(43.41895, -72.399)
 	var benningtonCounty = new google.maps.Polygon({
 		shortTitle: "Bennington",
 		paths: benningtonCoords,
-		strokeColor: '#FF0000',
+		strokeColor: '#003C00',
 		strokeOpacity: 0.8,
 		strokeWeight: 2,
-		fillColor: '#FF0000',
+		fillColor: '#003C00',
 		fillOpacity: 0.45
 		});
 	benningtonCounty.setMap(map);
@@ -2406,10 +2406,10 @@ new google.maps.LatLng(43.41895, -72.399)
 	var caledoniaCounty = new google.maps.Polygon({
 		shortTitle: "Caledonia",
 		paths: caledoniaCoords,
-		strokeColor: '#FF0000',
+		strokeColor: '#003C00',
 		strokeOpacity: 0.8,
 		strokeWeight: 2,
-		fillColor: '#FF0000',
+		fillColor: '#003C00',
 		fillOpacity: 0.45
 		});
 	caledoniaCounty.setMap(map);
@@ -2417,10 +2417,10 @@ new google.maps.LatLng(43.41895, -72.399)
 	var chittendenCounty = new google.maps.Polygon({
 		shortTitle: "Chittenden",
 		paths: chittendenCoords,
-		strokeColor: '#FF0000',
+		strokeColor: '#003C00',
 		strokeOpacity: 0.8,
 		strokeWeight: 2,
-		fillColor: '#FF0000',
+		fillColor: '#003C00',
 		fillOpacity: 0.45
 		});
 	chittendenCounty.setMap(map);
@@ -2428,10 +2428,10 @@ new google.maps.LatLng(43.41895, -72.399)
 	var essexCounty = new google.maps.Polygon({
 		shortTitle: "Essex",
 		paths: essexCoords,
-		strokeColor: '#FF0000',
+		strokeColor: '#003C00',
 		strokeOpacity: 0.8,
 		strokeWeight: 2,
-		fillColor: '#FF0000',
+		fillColor: '#003C00',
 		fillOpacity: 0.45
 		});
 	essexCounty.setMap(map);
@@ -2439,10 +2439,10 @@ new google.maps.LatLng(43.41895, -72.399)
 	var franklinCounty = new google.maps.Polygon({
 		shortTitle: "Franklin",
 		paths: franklinCoords,
-		strokeColor: '#FF0000',
+		strokeColor: '#003C00',
 		strokeOpacity: 0.8,
 		strokeWeight: 2,
-		fillColor: '#FF0000',
+		fillColor: '#003C00',
 		fillOpacity: 0.45
 		});
 	franklinCounty.setMap(map);
@@ -2450,10 +2450,10 @@ new google.maps.LatLng(43.41895, -72.399)
 	var grandisleCounty = new google.maps.Polygon({
 		shortTitle: "GrandIsle",
 		paths: grandisleCoords,
-		strokeColor: '#FF0000',
+		strokeColor: '#003C00',
 		strokeOpacity: 0.8,
 		strokeWeight: 2,
-		fillColor: '#FF0000',
+		fillColor: '#003C00',
 		fillOpacity: 0.45
 		});
 	grandisleCounty.setMap(map);
@@ -2461,10 +2461,10 @@ new google.maps.LatLng(43.41895, -72.399)
 	var lamoilleCounty = new google.maps.Polygon({
 		shortTitle: "Lamoille",
 		paths: lamoilleCoords,
-		strokeColor: '#FF0000',
+		strokeColor: '#003C00',
 		strokeOpacity: 0.8,
 		strokeWeight: 2,
-		fillColor: '#FF0000',
+		fillColor: '#003C00',
 		fillOpacity: 0.45
 		});
 	lamoilleCounty.setMap(map);
@@ -2472,10 +2472,10 @@ new google.maps.LatLng(43.41895, -72.399)
 	var orangeCounty = new google.maps.Polygon({
 		shortTitle: "Orange",
 		paths: orangeCoords,
-		strokeColor: '#FF0000',
+		strokeColor: '#003C00',
 		strokeOpacity: 0.8,
 		strokeWeight: 2,
-		fillColor: '#FF0000',
+		fillColor: '#003C00',
 		fillOpacity: 0.45
 		});
 	orangeCounty.setMap(map);
@@ -2483,10 +2483,10 @@ new google.maps.LatLng(43.41895, -72.399)
 	var orleansCounty = new google.maps.Polygon({
 		shortTitle: "Orleans",
 		paths: orleansCoords,
-		strokeColor: '#FF0000',
+		strokeColor: '#003C00',
 		strokeOpacity: 0.8,
 		strokeWeight: 2,
-		fillColor: '#FF0000',
+		fillColor: '#003C00',
 		fillOpacity: 0.45
 		});
 	orleansCounty.setMap(map);
@@ -2495,10 +2495,10 @@ new google.maps.LatLng(43.41895, -72.399)
 		description: "Rutland County Description goes here",
 		shortTitle: "Rutland",
 		paths: rutlandCoords,
-		strokeColor: '#FF0000',
+		strokeColor: '#003C00',
 		strokeOpacity: 0.8,
 		strokeWeight: 2,
-		fillColor: '#FF0000',
+		fillColor: '#003C00',
 		fillOpacity: 0.45
 		});
 	rutlandCounty.setMap(map);
@@ -2506,10 +2506,10 @@ new google.maps.LatLng(43.41895, -72.399)
 	var washingtonCounty = new google.maps.Polygon({
 		shortTitle: "Washington",
 		paths: washingtonCoords,
-		strokeColor: '#FF0000',
+		strokeColor: '#003C00',
 		strokeOpacity: 0.8,
 		strokeWeight: 2,
-		fillColor: '#FF0000',
+		fillColor: '#003C00',
 		fillOpacity: 0.45
 		});
 	washingtonCounty.setMap(map);
@@ -2517,10 +2517,10 @@ new google.maps.LatLng(43.41895, -72.399)
 	var windhamCounty = new google.maps.Polygon({
 		shortTitle: "Windham",
 		paths: windhamCoords,
-		strokeColor: '#FF0000',
+		strokeColor: '#003C00',
 		strokeOpacity: 0.8,
 		strokeWeight: 2,
-		fillColor: '#FF0000',
+		fillColor: '#003C00',
 		fillOpacity: 0.45
 		});
 	windhamCounty.setMap(map);
@@ -2529,10 +2529,10 @@ new google.maps.LatLng(43.41895, -72.399)
 		description: "Windsor County Description goes here",
 		shortTitle: "Windsor",
 		paths: windsorCoords,
-		strokeColor: '#FF0000',
+		strokeColor: '#003C00',
 		strokeOpacity: 0.8,
 		strokeWeight: 2,
-		fillColor: '#FF0000',
+		fillColor: '#003C00',
 		fillOpacity: 0.45
 		});
 	windsorCounty.setMap(map);
@@ -2636,8 +2636,8 @@ new google.maps.LatLng(43.41895, -72.399)
 		var tempo = counties[i].get("shortTitle");
 		if(tempo==currentCountyName)
 		{ 
-			counties[i].setOptions({strokeColor:"ff0800"}), 
-			counties[i].setOptions({fillColor: "ff0800"}), 
+			counties[i].setOptions({strokeColor:"001EFF"}), 
+			counties[i].setOptions({fillColor: "0062FF"}), 
 			counties[i].setOptions({strokeWeight: 4}) 
 		} 
 	}
@@ -2655,8 +2655,8 @@ new google.maps.LatLng(43.41895, -72.399)
 
 		   	//indicate selection:
 		   	deselectAll()
-		   	this.setOptions({strokeColor:"ff0800"}),
-		   	this.setOptions({fillColor: "ff0800"}),
+		   	this.setOptions({strokeColor:"001EFF"}),
+		   	this.setOptions({fillColor: "0062FF"}),
 		   	this.setOptions({strokeWeight: 4})
 		   	//this.setOptions({fillOpacity: 0.75})
 			
@@ -2677,10 +2677,10 @@ new google.maps.LatLng(43.41895, -72.399)
 	}
 	function deselectAll(){
 		for (var a = 0; a < counties.length; a++) {
-		   		counties[a].setOptions({strokeColor: "#FF0000"});
+		   		counties[a].setOptions({strokeColor: "#003C00"});
 		   		counties[a].setOptions({strokeWeight: 2});
 		   		//counties[a].setOptions({fillOpacity: 0.45});
-		   		counties[a].setOptions({fillColor: "#FF0000"});
+		   		counties[a].setOptions({fillColor: "#003C00"});
 		   	}
 
 	}
