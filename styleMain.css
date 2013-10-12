@@ -1,3 +1,8 @@
 /* Main CSS Stylesheet */
 
-h1{text-align: center;}
+h2
+{
+display: inline-block; 
+vertical-align: top;
+margin: 0;
+}
