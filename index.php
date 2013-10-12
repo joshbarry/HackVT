@@ -21,7 +21,7 @@
 <?php include("header.php"); ?>
 </div>
 <div id="mainbody_content">
-<div id="map_content" style="height:512px; width:512px;"></div>
+<div id="map_content"></div>
 <!-- No include here ... this is done in the header. -->
 <div id="navigation">
 <?php include("nav.php"); ?>

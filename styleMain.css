@@ -57,5 +57,7 @@ bar that encapsulates everything. */
 #map_content
 {
 	border-style: ridge;
+	height:384px; 
+	width:384px;
 }
 
