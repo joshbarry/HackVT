@@ -2,7 +2,7 @@
 
 $myServer = "HackVT.db.11612382.hostedresource.com"
 $myUser = "havkvt"
-$myPass = "hacked!7"
+$myPass = "Hacked!7"
 $myDB = "HackVT"
 
 
@@ -32,6 +32,7 @@ echo $result;
 mssql_close($dbhandle);
 
 ?>
+
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
