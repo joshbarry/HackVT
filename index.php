@@ -10,21 +10,30 @@
    <meta name="description" content="INSERT DATA HERE" />
 
    <link rel="stylesheet" href="styleMain.css" type="text/css" media="screen" />
+   <link href='http://fonts.googleapis.com/css?family=IM+Fell+DW+Pica+SC' rel='stylesheet' type='text/css'>
    
    <?php include("map.php"); ?>
 
 </head>
 
 <body>
+<div id="wrapper">
 <div id="titlebar">
 <?php include("header.php"); ?>
 </div>
-<?php include("nav.php"); ?>
-<div id="map_content" style="height:512px; width:512px;"></div>
+<div id="mainbody_content">
+<div id="map_content"></div>
 <!-- No include here ... this is done in the header. -->
+<div id="navigation">
+<?php include("nav.php"); ?>
+</div>
+<div id="infobox">
 <?php include("info.php"); ?>
+</div>
+</div>
 <div id="copyright">
 <?php include("copyright.php"); ?>
+</div>
 </div>
 </body>
 </html>
