@@ -1,0 +1,8 @@
+Team Karma
+
+Idea: Analyse school data reports, correlated by grants given to school districts to compare grants given to school (finding levels) and academic rigour. 
+Deliverable: Web App w/ Map Interface, (Kneecap vs. Grant). Ability to Sort Data, Search by district, Year Slider. 
+
+Summary: Stress the Purpose of the Product. Associating Funding w/ Academic Rigor. Useful with School admin, budgeting, famiilys, realitor, government, lookng at the utility of the taxpayer dollar. 
+
+
