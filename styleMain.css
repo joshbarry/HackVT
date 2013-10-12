@@ -2,7 +2,7 @@
 
 body
 {
-	background-color:#33CC99; 
+	background-image:url('./images/chalkboard.png');
 	width: 100%;
 }
 
@@ -11,7 +11,7 @@ h3
 	text-align:center;
 	font-size:12px;
 	font-weight: none;
-	color:black;
+	color:white;
 	padding: 5px;
 }
 
@@ -19,7 +19,7 @@ h3
 
 /* Chalkboard Border BABY */
 #top_bb-border, #bottom_bb-border, #left_bb-border, #right_bb-border {
-	background: black;
+	background-image:url('./images/chalkboard.png');
 	position:fixed;
 	z-index: 10;
 }
@@ -58,7 +58,7 @@ bar that encapsulates everything. */
 	top: 15px;
 	left: 15px;
 	z-index: 5;
-	background: rgba(180,221,180, 0.90);
+	background: rgba(255,255,255, 0.15);
 }
 
 /* Title controls the title text itself. */
@@ -89,7 +89,12 @@ bar that encapsulates everything. */
 /* Added border stuff */
 #map_content
 {
-	border:2px ridge #1E6636;
+	border-style: solid; 
+	border-width: 10px; 
+	-moz-border-image: url(./images/frame.png) 20 repeat; 
+	-webkit-border-image: url(./images/frame.png) 20 repeat; 
+	-o-border-image: url(./images/frame.png) 20 repeat; 
+	border-image: url(./images/frame.png) 20 repeat;
 	height:384px; 
 	width:384px;
 	float:left;
@@ -101,8 +106,14 @@ bar that encapsulates everything. */
 	float:left;
 	min-height: 384px;
 	min-width: 100px;
-	padding-left: 405px;
-	border:2px ridge #1E6636;
+	margin-left:15px;
+	padding-left: 400px;
+	border-style: solid; 
+	border-width: 10px; 
+	-moz-border-image: url(./images/frame.png) 20 repeat; 
+	-webkit-border-image: url(./images/frame.png) 20 repeat; 
+	-o-border-image: url(./images/frame.png) 20 repeat; 
+	border-image: url(./images/frame.png) 20 repeat;
 }
 
 /* infobox is the description box displayed beneath the map and 
@@ -110,18 +121,29 @@ navigation. This displays information like the county, funding,
 grade averages, bananas, etc. */
 #infobox
 {
+	background: rgba(255,255,255, 0.15);
+	color:white;
 	position:fixed;
-	top:490px;
+	top:510px;
 	padding-left:15px;
 	min-height:75px;
-	min-width:800px;
-	max-width:800px;
+	max-height: 150px;
+	min-width:903px;
+	max-width:903px;
 	margin-left:auto;
 	margin-right:auto;
-	border:2px ridge #1E6636;
+	border-style: solid; 
+	border-width: 10px; 
+	-moz-border-image: url(./images/frame.png) 20 repeat; 
+	-webkit-border-image: url(./images/frame.png) 20 repeat; 
+	-o-border-image: url(./images/frame.png) 20 repeat; 
+	border-image: url(./images/frame.png) 20 repeat;
+	overflow:scroll;
+	overflow-x: hidden;
+	-ms-overflow-x: hidden;
 }
 
-/* copyright styles */
+/* copyright styles *//*
 #copyright
 {
 	position:fixed;
@@ -129,5 +151,5 @@ grade averages, bananas, etc. */
 	padding-left:30px;
 	text-align:center;
 }
-
+*/
 
