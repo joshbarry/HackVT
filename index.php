@@ -24,12 +24,12 @@
 <div id="mainbody_content">
 <div id="map_content"></div>
 <!-- No include here ... this is done in the header. -->
-<div id="navigation">
+<div id="navigation_wrap">
 <?php include("nav.php"); ?>
+</div>
 </div>
 <div id="infobox">
 <?php include("info.php"); ?>
-</div>
 </div>
 <div id="copyright">
 <?php include("copyright.php"); ?>

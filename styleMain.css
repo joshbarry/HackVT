@@ -2,7 +2,7 @@
 
 body
 {
-	/* background-color:#33CC99; BLOCKED OUT FOR MEOW */
+	background-color:#33CC99; 
 	width: 100%;
 }
 
@@ -50,15 +50,13 @@ bar that encapsulates everything. */
 {
 	text-align: center;
 	font-family: 'IM Fell DW Pica SC', serif;
-	color: #FF0000;
+	color: white;
 	padding-top:25px;
 }
 
 /* logo controls the logo icon in the top left. */
 #logo
 {
-	margin-left:auto;
-	margin-right:auto;
 	padding-top:3px;
 	padding-left:20px;
 	float:left;
@@ -70,14 +68,39 @@ bar that encapsulates everything. */
 {
 	padding-top:75px;
 	top:75px;
-	left:0px;
 }
 
+/* map_content controls the location of the map HUD */
+/* Added border stuff */
 #map_content
 {
-	border-style: ridge;
+	border:2px ridge #1E6636;
 	height:384px; 
 	width:384px;
 	float:left;
 }
+
+/* navigation is the menu settings to the right of the map */
+#navigation
+{
+	min-height:384px;
+	min-width:384px;
+	float:right;
+	border:2px ridge #1E6636;
+}
+
+/* infobox is the description box displayed beneath the map and 
+navigation. This displays information like the county, funding, 
+grade averages, bananas, etc. */
+#infobox
+{
+	border:2px ridge #1E6636;
+}
+
+/* copyright styles */
+#copyright
+{
+	
+}
+
 
