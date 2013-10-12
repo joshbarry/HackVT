@@ -51,7 +51,9 @@ bar that encapsulates everything. */
  and the pop-up description box */
 #mainbody_content
 {
-	
+	padding-top:75px;
+	top:75px;
+	left:0px;
 }
 
 #map_content
@@ -59,5 +61,6 @@ bar that encapsulates everything. */
 	border-style: ridge;
 	height:384px; 
 	width:384px;
+	float:left;
 }
 
