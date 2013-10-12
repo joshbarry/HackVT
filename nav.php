@@ -8,7 +8,7 @@
 -->
 
 <div class="tabs">
-<form name="navigation" action="<? print $_SERVER['PHP_SELF']; ?>" method="post"> 
+<form name="navigation" action="<? print $_SERVER['PHP_SELF'];?>" method="post"> 
 <div class="tab">
 	<input type="radio" class="tabby" id="tab-1" name="tab-group-1" checked="">
 	<label for="tab-1">Counties</label>
@@ -43,6 +43,7 @@
 		<div id="panelIDS2">
 			
 			<select name="Tests">
+				<option value="?&scores=none">--- Select Scores ---</option>
 				<option value="Necap Science Grade 8 ">NECAP Science Grade 8</option>
 				<option value="NECAP Writing Grade 8">NECAP Writing Grade 8</option>
 				<option value="NECAP Science Grade 4">NECAP Science Grade 4</option>
@@ -65,7 +66,8 @@
 		<div class="serverTabContent">
 		<div id="panelIDS3">
 			
-			<select name="year">
+			<select name="year" onchange="" >
+				<option value="?&year=none">--- Select Year ---</option>
 				<option value="2003">2003</option>
 				<option value="2004">2004</option>
 				<option value="2005">2005</option>
