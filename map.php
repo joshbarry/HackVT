@@ -12,7 +12,6 @@
 
 // Map script goes here
 include("map_scripts/map_script.php");
-// Map Helper goes here
 include("map_scripts/map_helper.php");
 
 ?>
