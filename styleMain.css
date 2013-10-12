@@ -24,6 +24,28 @@ h3
 
 /* ID tags */
 
+/* Chalkboard Border BABY */
+#top_bb-border, #bottom_bb-border, #left_bb-border, #right_bb-border {
+	background: black;
+	position:fixed;
+}
+/* Chalkboard Widths */
+#left_bb-border, #right_bb-border {
+	top: 0; 
+	bottom: 0;
+	width: 15px;
+}
+#top_bb-border, #bottom_bb-border {
+	left: 0;
+	right: 0;
+	height: 15px;
+}
+/* Chalkboard Positions */
+#left_bb-border { left: 0; }
+#right_bb-border { right: 0; }
+#top_bb-border { top: 0; }
+#bottom_bb-border { bottom: 0; }
+
 /* Wrapper encapsulates EVERYTHING */
 #wrapper
 {
