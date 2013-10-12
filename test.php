@@ -28,7 +28,7 @@ echo $result;
 
 
 //close the connection
-sqlsvr_close($dbhandle);
+sqlsrv_close($dbhandle);
 
 ?>
 
