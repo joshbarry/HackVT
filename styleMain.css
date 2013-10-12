@@ -1,18 +1,44 @@
 /* Main CSS Stylesheet */
 
-body{background-color:#33CC99;}
+body
+{
+	/* background-color:#33CC99; BLOCKED OUT FOR MEOW */
+}
 
 h2
 {
-display: inline-block; 
-vertical-align: 50%;
-margin: 0;
-font-family:"Helvetica";
+	display: inline-block; 
+	vertical-align: 50%;
+	margin: 0;
+	font-family:"Helvetica";
+}
+
+/* ID tags */
+
+/* Titlebar controls the contents 'logo' and 'title'. Think of this as a fat
+bar that encapsulates everything. */
+#titlebar
+{
+	width: 980px;
+	height: 150px;
+	background-color: #0000FF;
+}
+
+/* Title controls the title text itself. */
+#title
+{
+	text-align: center;
+	color: #FF0000;
+}
+
+/* logo controls the logo icon in the top left. */
+#logo
+{
+	padding-left:25px;
 }
 
 #map_content
 {
-border-style: ridge;
-
+	border-style: ridge;
 }
 
