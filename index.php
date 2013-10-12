@@ -32,10 +32,10 @@
 <div id="infobox">
 <?php include("info.php"); ?>
 </div>
-</div>
-</div>
 <div id="copyright">
 <?php include("copyright.php"); ?>
+</div>
+</div>
 </div>
 </body>
 </html>
