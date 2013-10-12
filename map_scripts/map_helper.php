@@ -15,9 +15,11 @@ if($_GET['county']) {
 		echo "Connection could not be established.<br />";
 		die( print_r( sqlsrv_errors(), true));
 	}
+	$variables = "county, OrgName";
+	$table = "NECAP_FULL";
 	
 	/* Setup our SQL Statement */
-	$sql = "SELECT OrgName, County ";
+	$sql = "SELECT $variables ";
 	$sql .= "FROM NECAP_FULL ";
 	$sql .= "WHERE County = '$selectedCounty'";
 	
