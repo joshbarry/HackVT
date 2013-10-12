@@ -5,30 +5,29 @@ $myUser = "havkvt"
 $myPass = "hacked!7"
 $myDB = "HackVT"
 
+
+
+
 //connection to the database
 $dbhandle = mssql_connect($myServer, $myUser, $myPass)
   or die("Couldn't connect to SQL Server on $myServer"); 
 
+  
 //select a database to work with
 $selected = mssql_select_db($myDB, $dbhandle)
   or die("Couldn't open database $myDB"); 
 
 //declare the SQL statement that will query the database
-$query = "SELECT DISTINCT OrgName ";
-$query .= "FROM dbo.Necap_Data ";
-$query .= "WHERE name='Academy School'"; 
+$query = "SELECT DISTINCT OrgName FROM dbo.Necap_Data ";
+
 
 //execute the SQL query and return records
 $result = mssql_query($query);
 
 $numRows = mssql_num_rows($result); 
-echo $numRows; 
+echo $result; 
 
-//display the results 
-while($row = mssql_fetch_array($result))
-{
-  echo $row["id"];
-}
+
 //close the connection
 mssql_close($dbhandle);
 
@@ -52,7 +51,7 @@ mssql_close($dbhandle);
 </head>
 
 <body>
-
+<?php echo "hello world" ?>
 
 </body>
 </html>
