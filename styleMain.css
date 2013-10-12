@@ -6,6 +6,11 @@ body
 	width: 100%;
 }
 
+h1
+{
+	font-size: 200%;
+}
+
 h3
 {
 	text-align:center;
