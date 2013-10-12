@@ -2,15 +2,8 @@
 
 body
 {
-	/* background-color:#33CC99; BLOCKED OUT FOR MEOW */
+	background-color:#33CC99; 
 	width: 100%;
-}
-
-h2
-{
-	display: inline-block; 
-	vertical-align: 50%;
-	margin: 0;
 }
 
 h3
@@ -23,6 +16,28 @@ h3
 }
 
 /* ID tags */
+
+/* Chalkboard Border BABY */
+#top_bb-border, #bottom_bb-border, #left_bb-border, #right_bb-border {
+	background: black;
+	position:fixed;
+}
+/* Chalkboard Widths */
+#left_bb-border, #right_bb-border {
+	top: 0; 
+	bottom: 0;
+	width: 15px;
+}
+#top_bb-border, #bottom_bb-border {
+	left: 0;
+	right: 0;
+	height: 15px;
+}
+/* Chalkboard Positions */
+#left_bb-border { left: 0; }
+#right_bb-border { right: 0; }
+#top_bb-border { top: 0; }
+#bottom_bb-border { bottom: 0; }
 
 /* Wrapper encapsulates EVERYTHING */
 #wrapper
@@ -50,15 +65,12 @@ bar that encapsulates everything. */
 {
 	text-align: center;
 	font-family: 'IM Fell DW Pica SC', serif;
-	color: #FF0000;
-	padding-top:25px;
+	color: white;
 }
 
 /* logo controls the logo icon in the top left. */
 #logo
 {
-	margin-left:auto;
-	margin-right:auto;
 	padding-top:3px;
 	padding-left:20px;
 	float:left;
@@ -70,14 +82,45 @@ bar that encapsulates everything. */
 {
 	padding-top:75px;
 	top:75px;
-	left:0px;
 }
 
+/* map_content controls the location of the map HUD */
+/* Added border stuff */
 #map_content
 {
-	border-style: ridge;
+	border:2px ridge #1E6636;
 	height:384px; 
 	width:384px;
 	float:left;
 }
+
+/* navigation is the menu settings to the right of the map */
+#navigation
+{
+	float:right;
+	min-height: 384px;
+	min-width: 100px;
+	border:2px ridge #1E6636;
+}
+
+/* infobox is the description box displayed beneath the map and 
+navigation. This displays information like the county, funding, 
+grade averages, bananas, etc. */
+#infobox
+{
+	position:fixed;
+	top:474px;
+	min-height:75px;
+	width:980px;
+	border:2px ridge #1E6636;
+}
+
+/* copyright styles */
+#copyright
+{
+	position:fixed;
+	text-align:center;
+	bottom:0;
+}
+
 

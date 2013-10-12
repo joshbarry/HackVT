@@ -17,6 +17,7 @@
 </head>
 
 <body>
+<div id="left_bb-border"></div><div id="right_bb-border"></div><div id="top_bb-border"></div><div id="bottom_bb-border"></div>
 <div id="wrapper">
 <div id="titlebar">
 <?php include("header.php"); ?>
@@ -24,12 +25,12 @@
 <div id="mainbody_content">
 <div id="map_content"></div>
 <!-- No include here ... this is done in the header. -->
-<div id="navigation">
+<div id="navigation_wrap">
 <?php include("nav.php"); ?>
+</div>
 </div>
 <div id="infobox">
 <?php include("info.php"); ?>
-</div>
 </div>
 <div id="copyright">
 <?php include("copyright.php"); ?>
