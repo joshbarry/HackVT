@@ -2520,6 +2520,12 @@ new google.maps.LatLng(43.41895, -72.399)
 		map.openInfoWindowHtml(overlay, '<strong>Your html things :</strong><br />etc...');
 	});
 
+	//another approach to see if responsive:
+	google.maps.event.addListener(windsorCounty, 'click', function() {
+    map.setZoom(8);
+    map.setCenter(marker.getPosition());
+  	});
+
 	}
 	// Load the map (initializer)
 	google.maps.event.addDomListener(window, 'load', initialize);
